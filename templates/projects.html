@@ -1,57 +1,25 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Colorectal Oncogenomics Group: Projects</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% extends "base.html" %}
+{% block title %}Projects{% endblock %}
+{% set active_page = "projects" %}
+{% block content %}
+{{ super () }}
 
-    <!-- Bootstrap CSS -->
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-
-  <body>
-
-      <div class="container"> 
-      <!-- <div class="container-fluid"">  -->
-
-          <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">COG Lab</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.html">Home</a>
-		<a class="nav-item nav-link active" href="projects.html">Projects <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="team.html">Team</a>
-                <a class="nav-item nav-link" href="publications.html">Publications</a>
-                <a class="nav-item nav-link" href="funding.html">Funding</a>
-                <a class="nav-item nav-link" href="partners.html">Partners</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-              </div>
-            </div>
-          </nav>
           <h1 class="display-4 my-5">Key projects</h1>
 	  <p> The Colorectal Oncogenomics Group seeks to identify and investigate clinically and biologically-relevant subtypes of colorectal cancer (CRC) and their pre-malignant lesions (polyps) through genetic, epigenetic, somatic and histopathological characterisation.</p>
 
           <div class="card my-5">
             <h4 class="card-header">Risk factors</h4>
             <div class="card-body">
-              <!-- <h4 class="card-title">Special title treatment</h4> -->
               <p class="card-text">
 	  Identifying novel genetic risk factors for Colorectal Cancer across the spectrum of risk, from high- to low-penetrance variants, through the use of whole genome and whole exome sequencing in families with multiple CRC-affected individuals (Familial Colorectal Cancer Type X) and through case-control genome-wide association studies (GWAS).
               </p>
-              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
 
           <div class="card my-5">
             <h4 class="card-header">Lynch Syndrome</h4>
             <div class="card-body">
-              <!-- <h4 class="card-title">Special title treatment</h4> -->
               <p class="card-text">
 	  Improving our understanding of Lynch Syndrome, that is, individuals who carry a high-risk mutation in one of the DNA mismatch repair (MMR) genes. Our research focuses on the identification of individuals with a MMR gene mutation in the population, investigating potential genetic and environmental modifiers for CRC development and exploring the diagnostic utility of testing for MMR function in CRC, endometrial cancer as well as other cancers not typically associated with the syndrome.  We continue to work collaboratively towards classifying MMR gene variants of uncertain clinical significance and have active projects investigating the clinically significant group of families who have “suspected” or “Lynch-like” syndrome, that is, individuals have tumours demonstrating MMR-deficiency but a causative germline mutation cannot be identified. </p>
 	   
@@ -83,13 +51,4 @@
               </p>
             </div>
           </div>
-
-
-      </div>
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
-</html>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Publications{% endblock %}
+{% set active_page = "publications" %}
+{% block content %}   
+{{ super () }}
+
+	  <h1 class="display-4 my-5">Papers</h1>
+	  Maybe show the most recent papers, and then link to the full set. Possibly also split into years.
+	  <h1 class="display-4 my-5">Presentations</h1>
+	  This would list all talks etc, and hopefully include copies of slides.
+	  <h1 class="display-4 my-5">Posters</h1>
+	  Hopefully include copies of posters.
+
+{% endblock %}

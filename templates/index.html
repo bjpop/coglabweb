@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% set active_page = "home" %}
+{% block content %}
+{{ super () }}
+
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-3">Colorectal Oncogenomics Group</h1>
+              <p class="lead">Discovering the causes of colorectal cancer, reducing its incidence, and improving patient outcomes.</p>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-6">
+              <figure class="figure">
+                <img src="assets/img/group_photo_vccc_garden_crop_size.jpg" class="img-fluid rounded img-thumbnail" alt="Group Photo">
+                <figcaption class="figure-caption text-left">The team</figcaption>
+              </figure> 
+            </div>
+
+            <div class="col-6">
+              <h3>Overview</h3>
+              <p class="lead">Our research includes the identification and investigation of clinically and biologically relevant subtypes of colorectal cancer (CRC), including both familial and non-familial CRC, that can be identified through genetic, epigenetic, somatic and histopathological characterisation of CRC tumours and their pre-malignant lesions (polyps).</p>
+              <h5>Key research areas</h5>
+              <ul>
+                <li>Identifying novel genetic risk factors for CRC.</li>
+		<li>Improving our understanding of major CRC-related diseases, such as 
+		<span data-toggle="popover" title="Lynch Syndrome" data-content="Individuals who carry a high-risk mutation in one of the DNA mismatch repair genes, increasing their risk of developing certain cancers, including CRC."><mark>Lynch Syndrome</mark></span>
+		and
+		<span data-toggle="popover" title="Serrated Polyposis Syndrome" data-content="Individuals who have multiple serrated polyps in their colon, which increases their risk of developing CRC."><mark>Serrated Polyposis Syndrome</mark></span></li>
+                <li>Identifying biomarkers of risk and poor prognosis in CRC.</li>
+              </ul>
+            </div>
+
+          </div> <!-- The team photo and overview -->
+
+	  <h3 class="my-3"><span class="badge badge-secondary">News</span></h3>
+
+          <div class="card-deck my-5">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Conference presentations</h4>
+                  <p class="card-text">
+                  We have recently presented our work at:
+                  <ul>
+                      <li>The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting in Florence, Italy. July, 2017.</li>
+                      <li>Familial Aspects of Cancer 2017, Kingscliff, Australia. August, 2017</li>
+                      <li>The Colon CFR meeting, Hawaii, USA. September, 2017.</li>
+                  </ul>
+                  </p>
+                </div>
+		<div class="card-footer">
+			<small class="text-muted"><a href="publications.html#presentations">View all presentations</a></small>
+		</div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Recent publications</h4>
+                  <p class="card-text">
+                  Our latest publications: 
+                  <ul>
+                      <li><em>Somatic mutations of the coding microsatellites within the beta-2-microglobulin gene in mismatch repair-deficient colorectal cancers and adenomas. </em><a href="https://link.springer.com/article/10.1007/s10689-017-0013-y">Familial Cancer, 2017</a></li>
+                      <li><em>Risk of colorectal cancer for carriers of a germline mutation in POLE or POLD1. </em>Genetics in Medicine, 2017</li>
+                      <li><em>Tumor testing to identify lynch syndrome in two Australian colorectal cancer cohorts </em>Journal of Gastroenterology and Hepatology, 2017</li>
+                  </ul>
+                  </p>
+                </div>
+		<div class="card-footer">
+			<small class="text-muted"><a href="publications.html">View all publications</a></small>
+		</div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Activities</h4>
+                  <p class="card-text">
+                  Our latest activities: 
+                  <ul>
+                      <li>Key activity 1, January 2017.</li>
+                      <li>Something else happened. March, 2017.</li>
+                      <li>We did some more stuff. October, 2017.</li>
+                  </ul>
+                  </p>
+                </div>
+		<div class="card-footer">
+			<small class="text-muted"><a href="projects.html">View all projects</a></small>
+		</div>
+              </div>
+          </div>
+{% endblock %}
