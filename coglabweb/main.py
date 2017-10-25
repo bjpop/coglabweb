@@ -15,7 +15,7 @@ import logging
 import pkg_resources
 import os
 from jinja2 import Environment, FileSystemLoader
-
+import yaml
 
 
 EXIT_FILE_IO_ERROR = 1
@@ -102,6 +102,9 @@ def init_jinja(options):
  
 
 def render_pages(options, jinja_env):
+    file = open("templates/team.yaml")
+    team_info = yaml.load(file)
+    print(team_info)
     # Assume: each template generates an output file of the same name
     templates = [
             ("index.html", {}),

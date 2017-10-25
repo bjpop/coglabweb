@@ -20,5 +20,5 @@ setup(
     license='LICENSE',
     description=('Generate the COG website'),
     long_description=(LONG_DESCRIPTION),
-    install_requires=["jinja2==2.9.6"],
+    install_requires=["jinja2==2.9.6", "pyyaml"],
 )
