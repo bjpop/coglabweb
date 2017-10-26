@@ -6,7 +6,7 @@
 
 <h1 class="display-4 my-5">Current Funding</h1>
 
-{% for funding in contents %}
+{% for funding in contents.current %}
 
   <div class="card my-5">
     <h4 class="card-header">{{ funding.title }}</h4>
@@ -27,4 +27,25 @@
 {% endfor %}
 
 <h1 class="display-4 my-5">Recently Completed</h1>
+
+{% for funding in contents.previous %}
+
+  <div class="card my-5">
+    <h4 class="card-header">{{ funding.title }}</h4>
+    <div class="card-body">
+      <p class="card-text">
+        <dl>
+          <dt>Funding source</dt><dd>{{ funding.source }}</dd>
+          <dt>Funding type</dt><dd>{{ funding.type }}</dd>
+          <dt>Investigators</dt><dd>{{ funding.investigators }}</dd>
+          <dt>Year of commencement</dt><dd>{{ funding.start_year }}</dd>
+          <dt>Duration</dt><dd>{{ funding.duration }}</dd>
+          <dt>Amount</dt><dd>{{ funding.amount }}</dd>
+        </dl>
+      </p>
+    </div>
+</div>
+
+{% endfor %}
+
 {% endblock %}
