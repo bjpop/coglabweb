@@ -100,34 +100,31 @@ def init_jinja(options):
         loader=FileSystemLoader(options.templates),
         trim_blocks=True)
  
-def render_team(options, jinja_env):
-    template = "team.html"
-    contents = "team.yaml"
-    contents_filename = os.path.join(options.templates, contents)
-    with open(contents_filename) as contents_file:
-        contents = yaml.load(contents_file)
-        html = jinja_env.get_template(template).render(people=contents)
-        output_filename = os.path.join(options.outdir, template)
-        with open(output_filename, 'w') as output_file:
-            output_file.write(html)
+def render_page(options, jinja_env, template, contents_filename=None):
+    if contents_filename is not None:
+        contents_path = os.path.join(options.templates, contents_filename)
+        with open(contents_path) as contents_file:
+            contents = yaml.load(contents_file)
+    else:
+        contents = {}
+    html = jinja_env.get_template(template).render(contents=contents)
+    output_filename = os.path.join(options.outdir, template)
+    with open(output_filename, 'w') as output_file:
+        output_file.write(html)
 
 
 def render_pages(options, jinja_env):
-    # Assume: each template generates an output file of the same name
     templates = [
-            ("index.html", {}),
-            ("projects.html", {}),
-            ("funding.html", {}),
-            ("contact.html", {}),
-            ("publications.html", {}),
-            ("partners.html", {}),
+            ("index.html", None),
+            ("funding.html", None),
+            ("contact.html", None),
+            ("publications.html", None),
+            ("partners.html", None),
+            ("team.html", "team.yaml"),
+            ("projects.html", "projects.yaml"),
             ]
-    for template, context in templates:
-        output_filename = os.path.join(options.outdir, template)
-        with open(output_filename, 'w') as file:
-            #html = render_template(jinja_env, template, context)
-            html = jinja_env.get_template(template).render(context) 
-            file.write(html)
+    for template, contents in templates:
+        render_page(options, jinja_env, template, contents)
 
 
 def make_output_dir(options):
@@ -142,7 +139,6 @@ def main():
     jinja_env = init_jinja(options)
     make_output_dir(options)
     render_pages(options, jinja_env)
-    render_team(options, jinja_env)
 
 
 # If this script is run from the command line then call the main function.
