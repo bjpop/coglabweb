@@ -116,7 +116,7 @@ def render_page(options, jinja_env, template, contents_filename=None):
 def render_pages(options, jinja_env):
     templates = [
             ("index.html", None),
-            ("funding.html", None),
+            ("funding.html", "funding.yaml"),
             ("contact.html", None),
             ("publications.html", None),
             ("partners.html", None),
