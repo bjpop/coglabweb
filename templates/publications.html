@@ -4,6 +4,8 @@
 {% block content %}   
 {{ super () }}
 
+{% set count = [0] %}
+
 <h1 class="display-4 my-5">Publications</h1>
 
 {% for (year, papers) in contents %}
@@ -12,8 +14,8 @@
 
     {% for paper in papers %}
     
-    <ul class="fa-ul"><li><i class="fa-li fa fa-caret-square-o-right" aria-hidden="true"></i> <a href="#details{{ loop.index }}" data-toggle="collapse" aria-expanded="false" aria-controls="details{{ loop.index }}">{{ paper.title }}</a>, {{ paper.journal }}, {{ paper.year }}.
-        <div class="collapse" id="details{{ loop.index }}">
+    <ul class="fa-ul"><li><i class="fa-li fa fa-caret-square-o-right" aria-hidden="true"></i> <a href="#details{{ count[0] }}" data-toggle="collapse" aria-expanded="false" aria-controls="details{{ count[0] }}">{{ paper.title }}</a>, {{ paper.journal }}, {{ paper.year }}.
+        <div class="collapse" id="details{{ count[0] }}">
           <div class="card card-body my-3">
             <dl class="row">
               {% if paper.authors %}
@@ -70,6 +72,7 @@
       </div>
       </ul>
     
+    {% if count.append(count.pop() + 1) %}{% endif %} {# increment count by 1 #}
     {% endfor %}
 {% endfor %}
 {% endblock %}
