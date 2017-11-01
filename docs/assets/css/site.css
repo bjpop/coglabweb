@@ -1,0 +1,16 @@
+.jumbotron {
+    background: #d4e1f7;
+}
+
+/*
+.jumbotron {
+    background: #a6badb;
+    position: relative;
+    background: #000 url("../img/skyline.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    opacity: 0.5;
+}
+*/
