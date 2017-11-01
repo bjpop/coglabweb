@@ -118,7 +118,7 @@ def render_pages(options, jinja_env):
             ("index.html", None),
             ("funding.html", "funding.yaml"),
             ("contact.html", None),
-            ("publications.html", None),
+            ("publications.html", "publications.yaml"),
             ("partners.html", None),
             ("team.html", "team.yaml"),
             ("projects.html", "projects.yaml"),
