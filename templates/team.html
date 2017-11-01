@@ -10,25 +10,38 @@
     <div class="card my-5">
       <h4 class="card-header">{{ person.name }}</h4>
       <div class="card-body">
+      <h6 class="card-subtitle mb-2 text-muted">{{ person.role }}</h6>
+
         <p class="card-text">
 	  <div class="row">
             <div class="col-4">
               <img class="img-thumbnail mr-3" src="{{ person.photo }}" alt="{{ person.name }}">
             </div>
+
             <div class="col-8">
-              <p>{{ person.role }}</p>
-              <dl>
-                <dt>Position</dt><dd>{{ person.level }}</dd>
-                <dt>Affiliation</dt><dd>{{ person.affiliation }}</dd>
-                <dt>Phone</dt><dd>{{ person.phone }}</dd>
-                <dt>Mobile</dt><dd>{{ person.mobile }}</dd>
-                <dt>Email</dt><dd><a href="mailto:{{ person.email }}">{{ person.name }}</a></dd>
+
+              <dl class="row">
+                <dt class="col-sm-2">Position</dt>
+                <dd class="col-sm-10">{{ person.level }}</dd>
+                <dt class="col-sm-2">Affiliation</dt>
+                <dd class="col-sm-10">{{ person.affiliation }}</dd>
+                <dt class="col-sm-2">Phone</dt>
+                <dd class="col-sm-10">{{ person.phone }}</dd>
+                {% if person.mobile %}
+                  <dt class="col-sm-2">Mobile</dt>
+                  <dd class="col-sm-10">{{ person.mobile }}</dd>
+                {% endif %}
+                <dt class="col-sm-2">Email</dt>
+                <dd class="col-sm-10"><a href="mailto:{{ person.email }}">{{ person.name }}</a></dd>
+              </dl>
             </div>
 	  </div>
-          <h4>Career summary</h4>
+
+          <h4 class="my-3">Career summary</h4>
           {{ person.career }}
       </div>
     </div>
+
   {% endfor %}
 
 {% endblock %}

@@ -100,31 +100,46 @@ def init_jinja(options):
         loader=FileSystemLoader(options.templates),
         trim_blocks=True)
  
-def render_page(options, jinja_env, template, contents_filename=None):
+def render_page(options, jinja_env, template, transform, contents_filename=None):
     if contents_filename is not None:
         contents_path = os.path.join(options.templates, contents_filename)
         with open(contents_path) as contents_file:
             contents = yaml.load(contents_file)
     else:
         contents = {}
+    contents = transform(contents)
     html = jinja_env.get_template(template).render(contents=contents)
     output_filename = os.path.join(options.outdir, template)
     with open(output_filename, 'w') as output_file:
         output_file.write(html)
 
+def identity(x):
+    return x
+
+# Group all the papers into [(year, papers_in_year)]
+def papers_by_year(papers):
+    year_map = {}
+    for this_paper in papers:
+        this_year = this_paper['year']
+        if this_year in year_map:
+            year_map[this_year].append(this_paper)
+        else:
+            year_map[this_year] = [this_paper]
+    year_assoc_list = year_map.items()
+    return sorted(year_assoc_list, reverse=True)
 
 def render_pages(options, jinja_env):
     templates = [
-            ("index.html", "index.yaml"),
-            ("funding.html", "funding.yaml"),
-            ("contact.html", None),
-            ("publications.html", "publications.yaml"),
-            ("partners.html", None),
-            ("team.html", "team.yaml"),
-            ("projects.html", "projects.yaml"),
+            ("index.html", "index.yaml", identity),
+            ("funding.html", "funding.yaml", identity),
+            ("contact.html", None, identity),
+            ("publications.html", "publications.yaml", papers_by_year),
+            ("partners.html", None, identity),
+            ("team.html", "team.yaml", identity),
+            ("projects.html", "projects.yaml", identity),
             ]
-    for template, contents in templates:
-        render_page(options, jinja_env, template, contents)
+    for template, contents, transform in templates:
+        render_page(options, jinja_env, template, transform, contents)
 
 
 def make_output_dir(options):

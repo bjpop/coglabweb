@@ -4,67 +4,72 @@
 {% block content %}   
 {{ super () }}
 
-<h1 class="display-4 my-5">Papers</h1>
+<h1 class="display-4 my-5">Publications</h1>
 
-{% for paper in contents %}
+{% for (year, papers) in contents %}
 
-<ul class="fa-ul"><li><i class="fa-li fa fa-caret-square-o-right" aria-hidden="true"></i> <a href="#details{{ loop.index }}" data-toggle="collapse" aria-expanded="false" aria-controls="details{{ loop.index }}">{{ paper.title }}</a>, {{ paper.journal }}, {{ paper.year }}.
-    <div class="collapse" id="details{{ loop.index }}">
-      <div class="card card-body my-3">
-        <dl class="row">
-          {% if paper.authors %}
-            <dt class="col-sm-2">Authors</dt>
-            <dd class="col-sm-10">{{ ", ".join(paper.authors) }}</dd>
-          {% endif %}
+    <h3 class="my-5">{{ year }}</h3>
 
-          {% if paper.journal %}
-            <dt class="col-sm-2">Journal</dt>
-            <dd class="col-sm-10">{{ paper.journal }}</dd>
-          {% endif %}
-
-          {% if paper.volume %}
-            <dt class="col-sm-2">Volume</dt>
-            <dd class="col-sm-10">{{ paper.volume}}</dd>
-          {% endif %}
-
-          {% if paper.issue %}
-            <dt class="col-sm-2">Issue</dt>
-            <dd class="col-sm-10">{{ paper.issue }}</dd>
-          {% endif %}
-
-          {% if paper.year %}
-            <dt class="col-sm-2">Year</dt>
-            <dd class="col-sm-10">{{ paper.year }}</dd>
-          {% endif %}
-
-          {% if paper.doi %}
-            <dt class="col-sm-2">DOI</dt>
-            <dd class="col-sm-10">{{ paper.doi }}</dd>
-          {% endif %}
-
-          {% if paper.pmid %}
-            <dt class="col-sm-2">Pubmed ID</dt>
-            <dd class="col-sm-10">{{ paper.pmid }}</dd>
-          {% endif %}
-
-          {% if paper.url %}
-            <dt class="col-sm-2">URL</dt>
-	    <dd class="col-sm-10"><a href="{{ paper.url }}">{{ paper.url }}</a></dd>
-          {% endif %}
-
-          {% if paper.keywords %}
-            <dt class="col-sm-2">Keywords</dt>
-            <dd class="col-sm-10">{{ paper.keywords }}</dd>
-          {% endif %}
-
-          {% if paper.abstract %}
-            <dt class="col-sm-2">Abstract</dt>
-            <dd class="col-sm-10">{{ paper.abstract }}</dd>
-          {% endif %}
-        </dl>
+    {% for paper in papers %}
+    
+    <ul class="fa-ul"><li><i class="fa-li fa fa-caret-square-o-right" aria-hidden="true"></i> <a href="#details{{ loop.index }}" data-toggle="collapse" aria-expanded="false" aria-controls="details{{ loop.index }}">{{ paper.title }}</a>, {{ paper.journal }}, {{ paper.year }}.
+        <div class="collapse" id="details{{ loop.index }}">
+          <div class="card card-body my-3">
+            <dl class="row">
+              {% if paper.authors %}
+                <dt class="col-sm-2">Authors</dt>
+                <dd class="col-sm-10">{{ ", ".join(paper.authors) }}</dd>
+              {% endif %}
+    
+              {% if paper.journal %}
+                <dt class="col-sm-2">Journal</dt>
+                <dd class="col-sm-10">{{ paper.journal }}</dd>
+              {% endif %}
+    
+              {% if paper.volume %}
+                <dt class="col-sm-2">Volume</dt>
+                <dd class="col-sm-10">{{ paper.volume}}</dd>
+              {% endif %}
+    
+              {% if paper.issue %}
+                <dt class="col-sm-2">Issue</dt>
+                <dd class="col-sm-10">{{ paper.issue }}</dd>
+              {% endif %}
+    
+              {% if paper.year %}
+                <dt class="col-sm-2">Year</dt>
+                <dd class="col-sm-10">{{ paper.year }}</dd>
+              {% endif %}
+    
+              {% if paper.doi %}
+                <dt class="col-sm-2">DOI</dt>
+                <dd class="col-sm-10">{{ paper.doi }}</dd>
+              {% endif %}
+    
+              {% if paper.pmid %}
+                <dt class="col-sm-2">Pubmed ID</dt>
+                <dd class="col-sm-10">{{ paper.pmid }}</dd>
+              {% endif %}
+    
+              {% if paper.url %}
+                <dt class="col-sm-2">URL</dt>
+    	    <dd class="col-sm-10"><a href="{{ paper.url }}">{{ paper.url }}</a></dd>
+              {% endif %}
+    
+              {% if paper.keywords %}
+                <dt class="col-sm-2">Keywords</dt>
+                <dd class="col-sm-10">{{ paper.keywords }}</dd>
+              {% endif %}
+    
+              {% if paper.abstract %}
+                <dt class="col-sm-2">Abstract</dt>
+                <dd class="col-sm-10">{{ paper.abstract }}</dd>
+              {% endif %}
+            </dl>
+          </div>
       </div>
-  </div>
-  </ul>
-
+      </ul>
+    
+    {% endfor %}
 {% endfor %}
 {% endblock %}

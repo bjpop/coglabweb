@@ -11,18 +11,27 @@
   <div class="card my-5">
     <h4 class="card-header">{{ funding.title }}</h4>
     <div class="card-body">
-      <p class="card-text">
-        <dl>
-          <dt>Funding source</dt><dd>{{ funding.source }}</dd>
-          <dt>Funding type</dt><dd>{{ funding.type }}</dd>
-          <dt>Investigators</dt><dd>{{ funding.investigators }}</dd>
-          <dt>Year of commencement</dt><dd>{{ funding.start_year }}</dd>
-          <dt>Duration</dt><dd>{{ funding.duration }}</dd>
-          <dt>Amount</dt><dd>{{ funding.amount }}</dd>
-        </dl>
-      </p>
+      <dl class="row">
+        <dt class="col-sm-2">Source</dt>
+        <dd class="col-sm-10">{{ funding.source }}</dd>
+
+        <dt class="col-sm-2">Type</dt>
+        <dd class="col-sm-10">{{ funding.type }}</dd>
+
+        <dt class="col-sm-2">Investigators</dt>
+        <dd class="col-sm-10">{{ funding.investigators}}</dd>
+
+        <dt class="col-sm-2">Start year</dt>
+        <dd class="col-sm-10">{{ funding.start_year }}</dd>
+
+        <dt class="col-sm-2">Duration</dt>
+        <dd class="col-sm-10">{{ funding.duration}}</dd>
+
+        <dt class="col-sm-2">Amount</dt>
+        <dd class="col-sm-10">{{ funding.amount}}</dd>
+      </dl>
     </div>
-</div>
+  </div>
 
 {% endfor %}
 
@@ -33,18 +42,27 @@
   <div class="card my-5">
     <h4 class="card-header">{{ funding.title }}</h4>
     <div class="card-body">
-      <p class="card-text">
-        <dl>
-          <dt>Funding source</dt><dd>{{ funding.source }}</dd>
-          <dt>Funding type</dt><dd>{{ funding.type }}</dd>
-          <dt>Investigators</dt><dd>{{ funding.investigators }}</dd>
-          <dt>Year of commencement</dt><dd>{{ funding.start_year }}</dd>
-          <dt>Duration</dt><dd>{{ funding.duration }}</dd>
-          <dt>Amount</dt><dd>{{ funding.amount }}</dd>
-        </dl>
-      </p>
+      <dl class="row">
+        <dt class="col-sm-2">Source</dt>
+        <dd class="col-sm-10">{{ funding.source }}</dd>
+
+        <dt class="col-sm-2">Type</dt>
+        <dd class="col-sm-10">{{ funding.type }}</dd>
+
+        <dt class="col-sm-2">Investigators</dt>
+        <dd class="col-sm-10">{{ funding.investigators}}</dd>
+
+        <dt class="col-sm-2">Start year</dt>
+        <dd class="col-sm-10">{{ funding.start_year }}</dd>
+
+        <dt class="col-sm-2">Duration</dt>
+        <dd class="col-sm-10">{{ funding.duration}}</dd>
+
+        <dt class="col-sm-2">Amount</dt>
+        <dd class="col-sm-10">{{ funding.amount}}</dd>
+      </dl>
     </div>
-</div>
+  </div>
 
 {% endfor %}
 
