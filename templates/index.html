@@ -4,37 +4,33 @@
 {% block content %}
 {{ super () }}
 
-          <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-3">Colorectal Oncogenomics Group</h1>
-              <p class="lead">Discovering the causes of colorectal cancer, reducing its incidence, and improving patient outcomes.</p>
-            </div>
-          </div>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">{{ contents.name }}</h1>
+    <p class="lead">{{ contents.tagline }}</p>
+  </div>
+</div>
 
-          <div class="row">
+<div class="row">
 
-            <div class="col-6">
-              <figure class="figure">
-                <img src="assets/img/group_photo_vccc_garden_crop_size.jpg" class="img-fluid rounded img-thumbnail" alt="Group Photo">
-                <figcaption class="figure-caption text-left">The team</figcaption>
-              </figure> 
-            </div>
+  <div class="col-6">
+    <figure class="figure">
+      <img src="{{ contents.photo }}" class="img-fluid rounded img-thumbnail" alt="Group Photo">
+    </figure> 
+  </div>
 
-            <div class="col-6">
-              <h3>Overview</h3>
-              <p class="lead">Our research includes the identification and investigation of clinically and biologically relevant subtypes of colorectal cancer (CRC), including both familial and non-familial CRC, that can be identified through genetic, epigenetic, somatic and histopathological characterisation of CRC tumours and their pre-malignant lesions (polyps).</p>
-              <h5>Key research areas</h5>
-              <ul>
-                <li>Identifying novel genetic risk factors for CRC.</li>
-		<li>Improving our understanding of major CRC-related diseases, such as 
-		<span data-toggle="popover" title="Lynch Syndrome" data-content="Individuals who carry a high-risk mutation in one of the DNA mismatch repair genes, increasing their risk of developing certain cancers, including CRC."><mark>Lynch Syndrome</mark></span>
-		and
-		<span data-toggle="popover" title="Serrated Polyposis Syndrome" data-content="Individuals who have multiple serrated polyps in their colon, which increases their risk of developing CRC."><mark>Serrated Polyposis Syndrome</mark></span></li>
-                <li>Identifying biomarkers of risk and poor prognosis in CRC.</li>
-              </ul>
-            </div>
+  <div class="col-6">
+    <h3>Overview</h3>
+      {{ contents.overview }}
+    <h5>Key research areas</h5>
+    <ul>
+      {% for item in contents.research %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
 
-          </div> <!-- The team photo and overview -->
+</div> <!-- The team photo and overview -->
 
 	  <h3 class="my-3"><span class="badge badge-secondary">News</span></h3>
 
