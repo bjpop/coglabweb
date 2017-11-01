@@ -132,7 +132,7 @@ def render_pages(options, jinja_env):
     templates = [
             ("index.html", "index.yaml", identity),
             ("funding.html", "funding.yaml", identity),
-            ("contact.html", None, identity),
+            ("contact.html", "contact.yaml", identity),
             ("publications.html", "publications.yaml", papers_by_year),
             ("partners.html", None, identity),
             ("team.html", "team.yaml", identity),

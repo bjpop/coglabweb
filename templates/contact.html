@@ -4,20 +4,23 @@
 {% block content %}
 {{ super () }}
 
-          <h1 class="display-4 my-5">Contact</h1>
+<h1 class="display-4 my-5">Contact</h1>
 
-          <div class="card">
-            <h4 class="card-header">For phone and email enquiries</h4>
-            <div class="card-body">
-              <p class="card-text">
-                    <address>
-                    Ph: +61 3 8559 7004<br>
-                    Email: <a href="mailto:daniel.buchanan@unimelb.edu.au">Daniel Buchanan</a><br>
-		    <a href="https://www.victorianccc.org.au/">Victorian Comprehensive Cancer Centre</a><br>
-                    Level 10, 305 Grattan Street<br>
-                    Melbourne, VIC 3000
-                    </address>
-              </p>
-            </div>
-          </div>
+<div class="card">
+  <h4 class="card-header">For phone and email enquiries</h4>
+  <div class="card-body">
+
+     <dl class="row">
+       <dt class="col-sm-2">Phone</dt>
+       <dd class="col-sm-10">{{ contents.phone }}</dd>
+
+       <dt class="col-sm-2">Email</dt>
+       <dd class="col-sm-10"><a href="mailto:{{ contents.email }}">{{ contents.person }}</a></dd>
+
+       <dt class="col-sm-2">Address</dt>
+       <dd class="col-sm-10">{{ contents.address}}</dd>
+     </dl>
+
+  </div>
+</div>
 {% endblock %}
