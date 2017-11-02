@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Presentations{% endblock %}
+{% set active_page = "presentations" %}
+{% block content %}   
+{{ super () }}
+
+<h1 class="display-4 my-5">Presentations</h1>
+
+  {% for item in contents %}
+    
+    <ul>
+      <li>{{ item.title }}, {{ item.venue }}, {{ item.date }}.</li>
+    </ul>
+
+  {% endfor %}
+
+{% endblock %}
