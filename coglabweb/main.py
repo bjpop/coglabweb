@@ -152,6 +152,10 @@ def render_pages(options, jinja_env):
     publications_template.add_content("contents", options.templates, "publications.yaml", publications_by_year)
     publications_template.render_page(jinja_env, options.outdir)
 
+    presentations_template = Template("presentations.html")
+    presentations_template.add_content("contents", options.templates, "presentations.yaml")
+    presentations_template.render_page(jinja_env, options.outdir)
+
     partners_template = Template("partners.html")
     partners_template.add_content("contents", options.templates)
     partners_template.render_page(jinja_env, options.outdir)
