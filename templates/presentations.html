@@ -9,7 +9,7 @@
   {% for item in contents %}
     
     <ul>
-      <li>{{ item.title }}, {{ item.venue }}, {{ item.date }}.</li>
+      <li>{{ item.title }}, {{ item.venue }}, {{ item.date }}{% if item.slides %}, <a href="{{ item.slides }}">slides</a>{% endif %}.</li>
     </ul>
 
   {% endfor %}
