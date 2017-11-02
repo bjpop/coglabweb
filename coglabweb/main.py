@@ -26,6 +26,8 @@ DEFAULT_OUTPUT_DIR = 'docs'
 PROGRAM_NAME = "coglabweb"
 # Number of latest publications to show on index.html
 MAX_LATEST_PUBLICATIONS = 3
+# Number of latest presentations to show on index.html
+MAX_LATEST_PRESENTATIONS = 3
 
 
 try:
@@ -133,11 +135,16 @@ def latest_publications(publication_list):
     # so we don't need to sort it here
     return publication_list[:MAX_LATEST_PUBLICATIONS]
 
+def latest_presentations(presentation_list):
+    # we assume the presentation list is kept in date sorted order in the YAML file
+    # so we don't need to sort it here
+    return presentation_list[:MAX_LATEST_PRESENTATIONS]
 
 def render_pages(options, jinja_env):
     index_template = Template("index.html")
     index_template.add_content("contents", options.templates, "index.yaml")
     index_template.add_content("publications", options.templates, "publications.yaml", latest_publications)
+    index_template.add_content("presentations", options.templates, "presentations.yaml", latest_presentations)
     index_template.render_page(jinja_env, options.outdir)
 
     funding_template = Template("funding.html")
