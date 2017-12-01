@@ -1,45 +1,107 @@
+- title: "Using genomics for better detection and treatment of Lynch Syndrome"
+  event: "Eastern Gynaecological and Obstetrical Society, Annual Partners Dinner"
+  location: Melbourne, Australia
+  authors:
+    - Bernard Pope
+  date: 28 November, 2017
+  kind: Oral presentation
+ 
 - title: The role of RNF43, NTHL1, POLE and POLD1 in Serrated Polyposis 
-  venue: Familial Aspects of Cancer Research and Practice, Kingscliff, Australia 
-  speaker: Marie Lorans 
+  event: Familial Aspects of Cancer Research and Practice
+  location: Kingscliff, Australia 
+  authors: [Marie Lorans]
+  kind: Oral presentation
   date: 1 September 2017 
 
 - title: "Colorectal cancer susceptibility genes: findings from whole genome, exome and targeted sequencing of early onset and multiple-case families"
-  venue: Familial Aspects of Cancer Research and Practice, Kingscliff, Australia 
-  speaker: Bernie Pope
+  event: Familial Aspects of Cancer Research and Practice
+  location: Kingscliff, Australia 
+  authors: 
+    - Bernard Pope
+    - Khalid Mahmood
+    - Mark Clendenning
+    - Christophe Rosty
+    - Marie Lorans
+    - Harindra Jayasekara
+    - Neil O’Callaghan
+    - Susan Preston
+    - Daniel J. Park
+    - Fleur Hammet
+    - Tu Nguyen-Dumont
+    - Ashton Connor
+    - Steven Gallinger
+    - David Duggan
+    - Graham Casey
+    - Stephen N. Thibodeau
+    - John L. Hopper
+    - Melissa C. Southey
+    - Aung K. Win
+    - Finlay A. Macrae
+    - Ingrid M. Winship
+    - Mark A. Jenkins
+    - Daniel D. Buchanan for the Australasian Colorectal Cancer Family Registry
   date: 1 September 2017 
+  kind: Oral presentation
 
 - title: "Potential Difference in Colorectal Cancer Risk for Lynch Syndrome by Geographic Location of Mutation Carriers: Preliminary Result from the International Mismatch Repair Consortium (IMRC)"
-  venue: Familial Aspects of Cancer Research and Practice, Kingscliff, Australia 
-  speaker: Bernie Pope
+  event: Familial Aspects of Cancer Research and Practice
+  location: Kingscliff, Australia 
+  authors: [Aung Ko Win] 
   date: 1 September 2017 
+  kind: Oral presentation
+
+- title: "The Genetics of Colonic Polyposis Study: identifying the genetic basis of unexplained colonic polyposis"
+  event: "Familial Aspects of Cancer: Research and Practice"
+  location: Kingscliff, Australia
+  authors: [Sharelle Joseland, Mark Clendenning, Bernard J. Pope, Khalid Mahmood, Julie Arnold, Sonja Woodall, Marie Lorans, Neil O’Callaghan, Susan Preston, Chloe Wheatland, Kevin Sweet, Kara Semotiuk, Melissa C. Southey, Aung Ko Win, Mark A. Jenkins, Christophe Rosty, Finlay A. Macrae, Ingrid M. Winship, Susan Parry, Daniel D. Buchanan and FCCs]
+  date: 29 August - 1 September, 2017
+  kind: Poster
 
 - title: Prevalence of germline mutations in FAN1 in familial and early-onset colorectal cancers 
-  venue: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting in Florence, Italy
-  speaker: Dan Buchanan 
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting
+  location: Florence, Italy
+  authors: [Dan Buchanan]
   date: 8 July 2017 
+  kind: Oral presentation
 
 - title: Germline predisposition to Serrated Polyposis Syndrome including evidence for RNF43 as a susceptibility gene 
-  venue: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting in Florence, Italy
-  speaker: Dan Buchanan 
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting
+  location: Florence, Italy
+  authors: [Dan Buchanan]
   date: 7 July 2017 
+  kind: Oral presentation
 
 - title: Risk of colorectal cancer for carriers of a germline mutation in POLE or POLD1 
-  venue: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting in Florence, Italy
-  speaker: Aung Ko Win 
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting 
+  location: Florence, Italy
+  authors: [Aung Ko Win]
   date: 6 July 2017 
+  kind: Oral presentation
 
 - title: Tumour DNA methylation signature defines colorectal cancers from biallelic MUTYH mutation carriers 
-  venue: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting in Florence, Italy
-  speaker: Eric Joo 
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting
+  location: Florence, Italy
+  authors: [Eric Joo]
   date: 6 July 2017 
+  kind: Oral presentation
 
 - title: Somatic causes of tumour mismatch repair-deficiency in Lynch-like colorectal and endometrial cancers 
-  venue: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting in Florence, Italy
-  speaker: Mark Clendenning 
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting
+  location: Florence, Italy
+  authors: [Mark Clendenning]
   date: 6 July 2017 
+  kind: Oral presentation
 
 - title: Whole genome sequencing as a diagnostic tool for Lynch Syndrome
-  venue: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting in Florence, Italy
-  speaker: Bernie Pope
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting
+  location: Florence, Italy
+  authors: [Bernie Pope]
   date: 6 July 2017 
+  kind: Oral presentation
 
+- title: "Characterisation of Mismatch Repair variants submitted to the International Mismatch Repair Consortium (IMRC)"
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting
+  location: Florence, Italy
+  authors: [Jeanette Reece, Daniel Buchanan, John-Paul Plazzer, Khalid Mahmood, Bernard Pope, Mark Clendenning, Grant Lee, Aung Win, Allyson Templeton, Robert Haile, Gabriela Moslein, Finlay Macrae, Mark Jenkins]
+  date: 6 - 8 July, 2017
+  kind: Poster

@@ -4,13 +4,68 @@
 {% block content %}   
 {{ super () }}
 
-<h1 class="display-4 my-5">Presentations</h1>
+<h1 class="display-4 my-5">Presentations, Posters and Media</h1>
 
   {% for item in contents %}
     
-    <ul>
-      <li>{{ item.title }}, {{ item.venue }}, {{ item.date }}{% if item.slides %}, <a href="{{ item.slides }}">slides</a>{% endif %}.</li>
+      <ul style="list-style-type:none">
+      <li>
+        <details>
+          <summary>{{ item.title }}, {{ item.event}}, {{ item.date }}</summary>
+          <div class="card card-body my-3">
+            <dl class="row">
+
+              {% if item.authors %}
+                <dt class="col-sm-2">Authors</dt>
+                <dd class="col-sm-10">{{ ", ".join(item.authors) }}</dd>
+              {% endif %}
+
+              {% if item.kind %}
+                <dt class="col-sm-2">Type</dt>
+                <dd class="col-sm-10">{{ item.kind }}</dd>
+              {% endif %}
+
+              {% if item.media %}
+                <dt class="col-sm-2">Media</dt>
+                <dd class="col-sm-10">
+                  {% if item.media|length > 1 %}
+                    <ul>
+                    {% for media in item.media %}
+                      <li><a href="{{ media.url }}">{{ media.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                  {% else %}
+                      <a href="{{ item.media[0].url }}">{{ item.media[0].title }}</a>
+                  {% endif %}
+                </dd>
+              {% endif %}
+
+              {% if item.event %}
+                <dt class="col-sm-2">Event </dt>
+                <dd class="col-sm-10">{{ item.event  }}</dd>
+              {% endif %}
+
+              {% if item.location %}
+                <dt class="col-sm-2">Location</dt>
+                <dd class="col-sm-10">{{ item.location}}</dd>
+              {% endif %}
+
+              {% if item.date %}
+                <dt class="col-sm-2">Date</dt>
+                <dd class="col-sm-10">{{ item.date }}</dd>
+              {% endif %}
+
+              {% if item.abstract %}
+                <dt class="col-sm-2">Abstract </dt>
+                <dd class="col-sm-10">{{ item.abstract }}</dd>
+              {% endif %}
+
+            </dl>
+          </div>
+        </details>
+      </li>
     </ul>
+
 
   {% endfor %}
 
