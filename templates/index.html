@@ -72,20 +72,20 @@
 
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title">Activities</h4>
-      <p class="card-text">
-      Our latest activities: 
+      <h4 class="card-title">Recent activities</h4>
+        <p class="card-text">
         <ul>
-          <li>Key activity 1, January 2017.</li>
-          <li>Something else happened. March, 2017.</li>
-          <li>We did some more stuff. October, 2017.</li>
+          {% for activity in activities %}
+            <li>{{ activity.date }}: {{ activity.description }}</li>
+          {% endfor %}
         </ul>
-      </p>
+        </p>
     </div>
     <div class="card-footer">
-       <small class="text-muted"><a href="projects.html">View all projects</a></small>
+      <small class="text-muted"><a href="activities.html">View all activities</a></small>
     </div>
   </div>
+
 </div>
 
 {% endblock %}

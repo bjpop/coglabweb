@@ -28,6 +28,8 @@ PROGRAM_NAME = "coglabweb"
 MAX_LATEST_PUBLICATIONS = 3
 # Number of latest presentations to show on index.html
 MAX_LATEST_PRESENTATIONS = 3
+# Number of latest activities to show on index.html
+MAX_LATEST_ACTIVITIES = 5
 
 
 try:
@@ -141,39 +143,44 @@ def latest_presentations(presentation_list):
     return presentation_list[:MAX_LATEST_PRESENTATIONS]
 
 def render_pages(options, jinja_env):
-    index_template = Template("index.html")
-    index_template.add_content("contents", options.templates, "index.yaml")
-    index_template.add_content("publications", options.templates, "publications.yaml", latest_publications)
-    index_template.add_content("presentations", options.templates, "presentations.yaml", latest_presentations)
-    index_template.render_page(jinja_env, options.outdir)
+    Template("index.html") \
+        .add_content("contents", options.templates, "index.yaml") \
+        .add_content("publications", options.templates, "publications.yaml", latest_publications) \
+        .add_content("presentations", options.templates, "presentations.yaml", latest_presentations) \
+        .add_content("activities", options.templates, "activities.yaml", lambda xs: xs[:MAX_LATEST_ACTIVITIES]) \
+        .render_page(jinja_env, options.outdir)
 
-    funding_template = Template("funding.html")
-    funding_template.add_content("contents", options.templates, "funding.yaml")
-    funding_template.render_page(jinja_env, options.outdir)
+    Template("funding.html") \
+        .add_content("contents", options.templates, "funding.yaml") \
+        .render_page(jinja_env, options.outdir)
 
-    contact_template = Template("contact.html")
-    contact_template.add_content("contents", options.templates, "contact.yaml")
-    contact_template.render_page(jinja_env, options.outdir)
+    Template("contact.html") \
+        .add_content("contents", options.templates, "contact.yaml") \
+        .render_page(jinja_env, options.outdir)
 
-    publications_template = Template("publications.html")
-    publications_template.add_content("contents", options.templates, "publications.yaml", publications_by_year)
-    publications_template.render_page(jinja_env, options.outdir)
+    Template("publications.html") \
+        .add_content("contents", options.templates, "publications.yaml", publications_by_year) \
+        .render_page(jinja_env, options.outdir)
 
-    presentations_template = Template("presentations.html")
-    presentations_template.add_content("contents", options.templates, "presentations.yaml")
-    presentations_template.render_page(jinja_env, options.outdir)
+    Template("presentations.html") \
+        .add_content("contents", options.templates, "presentations.yaml") \
+        .render_page(jinja_env, options.outdir)
 
-    partners_template = Template("partners.html")
-    partners_template.add_content("contents", options.templates)
-    partners_template.render_page(jinja_env, options.outdir)
+    Template("partners.html") \
+        .add_content("contents", options.templates) \
+        .render_page(jinja_env, options.outdir)
 
-    team_template = Template("team.html")
-    team_template.add_content("contents", options.templates, "team.yaml")
-    team_template.render_page(jinja_env, options.outdir)
+    Template("team.html") \
+        .add_content("contents", options.templates, "team.yaml") \
+        .render_page(jinja_env, options.outdir)
 
-    projects_template = Template("projects.html")
-    projects_template.add_content("contents", options.templates, "projects.yaml")
-    projects_template.render_page(jinja_env, options.outdir)
+    Template("projects.html") \
+        .add_content("contents", options.templates, "projects.yaml") \
+        .render_page(jinja_env, options.outdir)
+
+    Template("activities.html") \
+        .add_content("contents", options.templates, "activities.yaml") \
+        .render_page(jinja_env, options.outdir)
 
 
 def identity(x):
@@ -195,6 +202,7 @@ class Template(object):
             with open(contents_path) as contents_file:
                 yaml_contents = yaml.load(contents_file)
         self.contents[name] = transform(yaml_contents)
+        return self
 
     def render_page(self, jinja_env, outdir):
         jinja_template = jinja_env.get_template(self.html_filename)

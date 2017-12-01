@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Activities{% endblock %}
+{% set active_page = "activities" %}
+{% block content %}   
+{{ super () }}
+
+<h1 class="display-4 my-5">Activities</h1>
+
+  {% for item in contents %}
+    
+    <ul>
+      <li>{{ item.date }}: {{ item.description }}</li>
+    </ul>
+
+  {% endfor %}
+
+{% endblock %}
