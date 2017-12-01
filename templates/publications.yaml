@@ -129,10 +129,9 @@
   - Winship IM
   - Win AK
   date: '2017-11-09'
-  doi: ''
+  doi: '10.1038/gim.2017.185'
   issue: ''
-  journal: 'Genetics in medicine: official journal of the American College of Medical
-    Genetics'
+  journal: 'Genetics in medicine'
   keywords: POLE, POLD1, Colorectal cancer, penetrance, polymerase proof reading associated
     polyposis
   pages: ''
@@ -140,7 +139,7 @@
   title: Risk of colorectal cancer for carriers of a germline mutation in POLE or
     POLD1
   type: Journal Article
-  url: ''
+  url: 'http://dx.doi.org/10.1038/gim.2017.185'
   volume: ''
   year: '2017'
 - abstract: In this article, we propose an association model to estimate the penetrance
