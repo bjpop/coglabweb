@@ -85,19 +85,26 @@ def init_logging(log_filename):
     command line from sys.argv
 
     Arguments:
-        log_filename: either None, if logging is not required, or the
+        log_filename: either None to log to stderr, or the
             string name of the log file to write to
     Result:
         None
     '''
-    if log_filename is not None:
+    format  = '%(asctime)s %(levelname)s - %(message)s'
+    datefmt = '%m-%d-%Y %H:%M:%S'
+    if log_filename is None:
+        logging.basicConfig(
+            level=logging.DEBUG,
+            format=format,
+            datefmt=datefmt)
+    else:
         logging.basicConfig(filename=log_filename,
             level=logging.DEBUG,
             filemode='w',
-            format='%(asctime)s %(levelname)s - %(message)s',
-            datefmt='%m-%d-%Y %H:%M:%S')
-        logging.info('program started')
-        logging.info('command line: {0}'.format(' '.join(sys.argv)))
+            format=format,
+            datefmt=datefmt)
+
+    logging.info('starting: %s', ' '.join(sys.argv))
 
 
 def init_jinja(options):
@@ -214,6 +221,7 @@ class Template(object):
 
 def make_output_dir(options):
     if not os.path.exists(options.outdir):
+        logging.debug("creating output dir: %s: done", options.outdir)
         os.makedirs(options.outdir)
 
 
@@ -224,6 +232,7 @@ def main():
     jinja_env = init_jinja(options)
     make_output_dir(options)
     render_pages(options, jinja_env)
+    logging.info("done: open %s/index.html to see generated website", options.outdir)
 
 
 # If this script is run from the command line then call the main function.
