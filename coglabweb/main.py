@@ -140,9 +140,8 @@ def publications_by_year(publications):
     return sorted(year_assoc_list, reverse=True)
 
 def latest_publications(publication_list):
-    # we assume the publication list is kept in date sorted order in the YAML file
-    # so we don't need to sort it here
-    return publication_list[:MAX_LATEST_PUBLICATIONS]
+    sorted_publications = [pub for (_year, pubs) in publications_by_year(publication_list) for pub in pubs]
+    return sorted_publications[:MAX_LATEST_PUBLICATIONS]
 
 def latest_presentations(presentation_list):
     # we assume the presentation list is kept in date sorted order in the YAML file

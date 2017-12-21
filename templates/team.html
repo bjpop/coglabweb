@@ -21,18 +21,30 @@
             <div class="col-8">
 
               <dl class="row">
-                <dt class="col-sm-2">Position</dt>
-                <dd class="col-sm-10">{{ person.level }}</dd>
-                <dt class="col-sm-2">Affiliation</dt>
-                <dd class="col-sm-10">{{ person.affiliation }}</dd>
-                <dt class="col-sm-2">Phone</dt>
-                <dd class="col-sm-10">{{ person.phone }}</dd>
-                {% if person.mobile %}
-                  <dt class="col-sm-2">Mobile</dt>
-                  <dd class="col-sm-10">{{ person.mobile }}</dd>
+                {% if person.level %}
+                  <dt class="col-sm-3">Position</dt>
+                  <dd class="col-sm-9">{{ person.level }}</dd>
                 {% endif %}
-                <dt class="col-sm-2">Email</dt>
-                <dd class="col-sm-10"><a href="mailto:{{ person.email }}">{{ person.name }}</a></dd>
+                {% if person.affiliation %}
+                  <dt class="col-sm-3">Affiliation</dt>
+                  <dd class="col-sm-9">{{ person.affiliation }}</dd>
+                {% endif %}
+                {% if person.publications %}
+                  <dt class="col-sm-3">Publications</dt>
+                  <dd class="col-sm-9">{{ person.publications}}</dd>
+                {% endif %}
+                {% if person.phone %}
+                  <dt class="col-sm-3">Phone</dt>
+                  <dd class="col-sm-9">{{ person.phone }}</dd>
+                {% endif %}
+                {% if person.mobile %}
+                  <dt class="col-sm-3">Mobile</dt>
+                  <dd class="col-sm-9">{{ person.mobile }}</dd>
+                {% endif %}
+                {% if person.email %}
+                  <dt class="col-sm-3">Email</dt>
+                  <dd class="col-sm-9"><a href="mailto:{{ person.email }}">{{ person.name }}</a></dd>
+                {% endif %}
               </dl>
             </div>
 	  </div>

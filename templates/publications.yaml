@@ -347,7 +347,7 @@
   date: '2017'
   doi: 10.1002/mgg3.317
   issue: '5'
-  journal: ''
+  journal: 'Molecular Genetics & Genomic Medicine'
   keywords: Colorectal cancer Familial Colorectal Cancer Type X germline variants
     young onset
   pages: 553-569
@@ -8183,4 +8183,791 @@
   url: https://www.ncbi.nlm.nih.gov/pubmed/10091612
   volume: '14'
   year: '1999'
+
+- abstract: Polyps of the gastrointestinal tract are very common lesions and most
+    frequently sporadic in nature. Some polyp subtypes are associated with rare hereditary
+    polyposis syndromes, including juvenile polyposis syndrome, Peutz-Jeghers syndrome,
+    and Cowden syndrome. However, many sporadic benign lesions of the gastrointestinal
+    tract can mimic some of these syndromic hamartomatous polyps. The role of the
+    surgical pathologist is to raise the possibility of a hereditary condition in
+    case of suggestive polyp histology and to look for clinical information to support
+    the suspected diagnosis. In this review, the clinical presentation and the pathology
+    associated with these rare hamartomatous polyposis syndromes are discussed in
+    an attempt to provide pathologists clues in suggesting one such syndrome on the
+    basis of histologic findings and clinical context. Identification of affected
+    individuals is important because of the increased gastrointestinal and other malignancies.
+    Recently, new adenomatous polyposis syndromes have been discovered, expanding
+    the genetic causes of patient diagnosed with multiple colonic adenomas. By being
+    aware of the clinical phenotype and the tumor spectrum associated with gastrointestinal
+    polyposis syndromes, surgical pathologists can play a critical role in recommending
+    genetic counseling when suspicious of such a diagnosis. This may lead to the identification
+    of a genetic cause and appropriate surveillance of affected family members to
+    screen for associated malignancies.
+  authors:
+  - Rosty C
+  date: 2018-01
+  doi: 10.1097/PAP.0000000000000173
+  issue: '1'
+  journal: Advances in anatomic pathology
+  keywords: ''
+  pages: 1-13
+  pmid: '28901964'
+  title: The Role of the Surgical Pathologist in the Diagnosis of Gastrointestinal
+    Polyposis Syndromes
+  type: Journal Article
+  url: http://dx.doi.org/10.1097/PAP.0000000000000173
+  volume: '25'
+  year: '2018'
+- abstract: ''
+  authors:
+  - Brown IS
+  - Miller G
+  - Bettington ML
+  - Rosty C
+  date: 2017-05
+  doi: 10.1007/s00428-017-2132-0
+  issue: '5'
+  journal: 'Virchows Archiv: an international journal of pathology'
+  keywords: ''
+  pages: '597'
+  pmid: '28424866'
+  title: Histopathological findings of extra-ileal manifestations at initial diagnosis
+    of Crohn's disease-related ileitis
+  type: Journal Article
+  url: http://dx.doi.org/10.1007/s00428-017-2132-0
+  volume: '470'
+  year: '2017'
+- abstract: "BACKGROUND: Colorectal cancer (CRC) diagnosed at <50 years is predominantly\
+    \ located in the distal colon and rectum. Little is known about which lesion subtypes\
+    \ may serve as CRC precursors in young adults. The aim of this work was to document\
+    \ the prevalence and histological subtype of lesions seen in patients aged <50\
+    \ years, and any associated clinical features. METHODS: An audit of the colonoscopy\
+    \ database at The Queen Elizabeth Hospital in Adelaide, South Australia over a\
+    \ 12-month period was undertaken. Findings were recorded from both colonoscopy\
+    \ reports and corresponding histological examination of excised lesions. RESULTS:\
+    \ Data were extracted from colonoscopies in 2064 patients. Those aged <50 comprised\
+    \ 485 (24%) of the total. CRC precursor lesions (including sessile serrated adenoma/polyps\
+    \ (SSA/P), traditional serrated adenomas, tubular adenomas \u226510 mm or with\
+    \ high-grade dysplasia, and conventional adenomas with villous histology) were\
+    \ seen in 4.3% of patients aged <50 and 12.9% of patients aged \u226550 (P <0.001).\
+    \ Among colonoscopies yielding CRC precursor lesions in patients under 50 years,\
+    \ SSA/P occurred in 52% of procedures (11/21), compared with 27% (55/204) of procedures\
+    \ in patients aged 50 and older (P = 0.02). SSA/P were proximally located in (10/11)\
+    \ 90% of patients aged under 50, and 80% (43/54) of those aged 50 and older (P\
+    \ = 0.46). CONCLUSIONS: SSA/P were the most frequently observed CRC precursor\
+    \ lesions in patients aged <50. Most CRCs in this age group are known to arise\
+    \ in the distal colon and rectum suggesting that lesions other than SSA/P may\
+    \ serve as the precursor for the majority of early-onset CRC."
+  authors:
+  - Wong S
+  - Lidums I
+  - Rosty C
+  - Ruszkiewicz A
+  - Parry S
+  - Win AK
+  - Tomita Y
+  - Vatandoust S
+  - Townsend A
+  - Patel D
+  - Hardingham JE
+  - Roder D
+  - Smith E
+  - Drew P
+  - Marker J
+  - Uylaki W
+  - Hewett P
+  - Worthley DL
+  - Symonds E
+  - Young GP
+  - Price TJ
+  - Young JP
+  date: '2017-04-19'
+  doi: 10.1186/s12876-017-0612-y
+  issue: '1'
+  journal: BMC gastroenterology
+  keywords: Adenoma; Early-onset colorectal cancer; Sessile serrated adenoma
+  pages: '56'
+  pmid: '28424049'
+  title: Findings in young adults at colonoscopy from a hospital service database
+    audit
+  type: Journal Article
+  url: http://dx.doi.org/10.1186/s12876-017-0612-y
+  volume: '17'
+  year: '2017'
+- abstract: "Conventional adenomas are initiated by APC gene mutation that activates\
+    \ the WNT signal. Serrated neoplasia is commonly initiated by BRAF or KRAS mutation.\
+    \ WNT pathway activation may also occur, however, to what extent this is owing\
+    \ to APC mutation is unknown. We examined aberrant nuclear \u03B2-catenin immunolocalization\
+    \ as a surrogate for WNT pathway activation and analyzed the entire APC gene coding\
+    \ sequence in serrated and conventional pathway polyps and cancers. WNT pathway\
+    \ activation was a common event in conventional pathway lesions with aberrant\
+    \ nuclear immunolocalization of \u03B2-catenin and truncating APC mutations in\
+    \ 90% and 89% of conventional adenomas and 82% and 70% of BRAF wild-type cancers,\
+    \ respectively. WNT pathway activation was seen to a lesser extent in serrated\
+    \ pathway lesions. It occurred at the transition to dysplasia in serrated polyps\
+    \ with a significant increase in nuclear \u03B2-catenin labeling from sessile\
+    \ serrated adenomas (10%) to sessile serrated adenomas with dysplasia (55%) and\
+    \ traditional serrated adenomas (9%) to traditional serrated adenomas with dysplasia\
+    \ (39%) (P=0.0001). However, unlike the conventional pathway, truncating APC mutations\
+    \ were rare in the serrated pathway lesions especially sessile serrated adenomas\
+    \ even when dysplastic (15%) and in the BRAF mutant cancers with microsatellite\
+    \ instability that arise from them (8%). In contrast, APC missense mutations that\
+    \ were rare in conventional pathway adenomas and cancers (3% in BRAF wild-type\
+    \ cancers) were more frequent in BRAF mutant cancers with microsatellite instability\
+    \ (32%). We conclude that increased WNT signaling is important in the transition\
+    \ to malignancy in the serrated pathway but that APC mutation is less common and\
+    \ the spectrum of mutations is different than in conventional colorectal carcinogenesis.\
+    \ Moderate impact APC mutations and non-APC-related causes of increased WNT signaling\
+    \ may have a more important role in serrated neoplasia than the truncating APC\
+    \ mutations common in conventional adenomas.Modern Pathology advance online publication,\
+    \ 17 November 2017; doi:10.1038/modpathol.2017.150."
+  authors:
+  - Borowsky J
+  - Dumenil T
+  - Bettington M
+  - Pearson SA
+  - Bond C
+  - Fennell L
+  - Liu C
+  - McKeone D
+  - Rosty C
+  - Brown I
+  - Walker N
+  - Leggett B
+  - Whitehall V
+  date: '2017-11-17'
+  doi: 10.1038/modpathol.2017.150
+  issue: ''
+  journal: 'Modern pathology: an official journal of the United States and Canadian
+    Academy of Pathology, Inc'
+  keywords: ''
+  pages: ''
+  pmid: '29148535'
+  title: The role of APC in WNT pathway activation in serrated neoplasia
+  type: Journal Article
+  url: http://dx.doi.org/10.1038/modpathol.2017.150
+  volume: ''
+  year: '2017'
+- abstract: Sessile serrated adenomas are the precursor polyp of approximately 20%
+    of colorectal carcinomas. Sessile serrated adenomas with dysplasia are rarely
+    encountered and represent an intermediate step to malignant progression, frequently
+    associated with loss of MLH1 expression. Accurate diagnosis of these lesions is
+    important to facilitate appropriate surveillance, particularly because progression
+    from dysplasia to carcinoma can be rapid. The current World Health Organization
+    classification describes two main patterns of dysplasia occurring in sessile serrated
+    adenomas, namely, serrated and conventional. However, this may not adequately
+    reflect the spectrum of changes seen by pathologists in routine practice. Furthermore,
+    subtle patterns of dysplasia that are nevertheless associated with loss of MLH1
+    expression are not encompassed in this classification. We performed a morphological
+    analysis of 266 sessile serrated adenomas with dysplasia with concurrent MLH1
+    immunohistochemistry with the aims of better defining the spectrum of dysplasia
+    occurring in these lesions and correlating dysplasia patterns with MLH1 expression.
+    We found that dysplasia can be divided morphologically into four major patterns,
+    comprising minimal deviation (19%), serrated (12%), adenomatous (8%) and not otherwise
+    specified (79%) groups. Minimal deviation dysplasia is defined by minor architectural
+    and cytological changes that typically requires loss of MLH1 immunohistochemical
+    expression to support the diagnosis. Serrated dysplasia and adenomatous dysplasia
+    have distinctive histological features and are less frequently associated with
+    loss of MLH1 expression (13 and 5%, respectively). Finally, dysplasia not otherwise
+    specified encompasses most cases and shows a diverse range of morphological changes
+    that do not fall into the other subgroups and are frequently associated with loss
+    of MLH1 expression (83%). This morphological classification of sessile serrated
+    adenomas with dysplasia may represent an improvement on the current description
+    as it correlates with the underlying mismatch repair protein status of the polyps
+    and better highlights the range of morphologies seen by pathologists.
+  authors:
+  - Liu C
+  - Walker NI
+  - Leggett BA
+  - Whitehall VL
+  - Bettington ML
+  - Rosty C
+  date: 2017-12
+  doi: 10.1038/modpathol.2017.92
+  issue: '12'
+  journal: 'Modern pathology: an official journal of the United States and Canadian
+    Academy of Pathology, Inc'
+  keywords: ''
+  pages: 1728-1738
+  pmid: '28752838'
+  title: 'Sessile serrated adenomas with dysplasia: morphological patterns and correlations
+    with MLH1 immunohistochemistry'
+  type: Journal Article
+  url: http://dx.doi.org/10.1038/modpathol.2017.92
+  volume: '30'
+  year: '2017'
+- abstract: 'Patients with serrated polyposis develop multiple serrated polyps throughout
+    the large bowel: hyperplastic polyps (HP), sessile serrated adenomas (SSA) and
+    traditional serrated adenomas (TSA). The frequency and the characteristics of
+    serrated lesions of the appendix have not been reported in serrated polyposis
+    patients. We conducted a retrospective study of 34 serrated polyposis patients
+    who underwent a total or right hemicolectomy for adenocarcinoma or polyp burden.
+    An appendiceal serrated lesion was identified in 23 (68%): 13 SSAs, three SSAs
+    with dysplasia, four HPs and three TSAs. The BRAF(V600E) mutation was present
+    in four polyps, all of SSA subtype (one with dysplasia). KRAS mutations were identified
+    in 11 polyps (48%), in more than half of SSAs and of TSAs, and in none of the
+    four HPs. None of the polyps displayed high levels of CpG island methylator phenotype
+    (CIMP). There was no methylation in the promoter of the MLH1, p16 or MGMT gene.
+    Serrated lesions of the appendix are frequently found in serrated polyposis patients
+    and are most commonly of SSA-type morphology, frequently associated with KRAS
+    mutation. It is unclear if appendiceal serrated polyps are a feature of serrated
+    polyposis or a lesion frequently identified in association with a proximal colonic
+    adenocarcinoma.'
+  authors:
+  - Bettington M
+  - Brown IS
+  - Rosty C
+  date: 2016-01
+  doi: 10.1016/j.pathol.2015.11.012
+  issue: '1'
+  journal: Pathology
+  keywords: BRAF; CIMP; KRAS; Serrated polyps; appendix; serrated polyposis
+  pages: 30-34
+  pmid: '27020206'
+  title: Serrated lesions of the appendix in serrated polyposis patients
+  type: Journal Article
+  url: http://dx.doi.org/10.1016/j.pathol.2015.11.012
+  volume: '48'
+  year: '2016'
+- abstract: 'AIMS: To describe the clinical and pathological features of a series
+    of patients with biopsy findings of a coeliac disease-like enteropathy in the
+    setting of an acute illness. METHODS AND RESULTS: Eighteen cases of an abrupt-onset,
+    self-limited illness with coeliac-like enteropathy (SLCE) were collected prospectively.
+    Medication reaction, immune disorder, food allergy and parasitic infection were
+    excluded. Coeliac disease was excluded by the transient nature of the illness
+    and absence of tissue transglutaminase (TTG) elevation (nine of nine) or human
+    leucocyte antigen (HLA)-DQ2/DQ8 haplotype (eight of nine). Clinical symptoms were
+    recorded and histopathological findings in all gastrointestinal sites were quantified.
+    Findings in the duodenum were compared to a coeliac disease control group. In
+    12 cases the clinical diagnosis was infective enteritis, probably viral in type.
+    In six cases, a definite diagnosis was not established. Histological differences
+    from coeliac disease included intra-epithelial neutrophil infiltration (P < 0.001),
+    fewer intra-epithelial lymphocytes (P = 0.038) and uniform or crypt predominant
+    intra-epithelial lymphocytosis in SCLE. One case displayed pan-gastrointestinal
+    tract lymphocytosis. All resolved within 6 months. CONCLUSIONS: Histopathologists
+    need to be aware that a coeliac disease-like enteropathy may occur in the setting
+    of an acute gastrointestinal illness and resolve without sequelae.'
+  authors:
+  - Brown IS
+  - Bettington A
+  - Bettington M
+  - Rosty C
+  date: 2016-01
+  doi: 10.1111/his.12752
+  issue: '2'
+  journal: Histopathology
+  keywords: coeliac disease; coeliac-like enteropathy; infection; intra-epithelial
+    lymphocytosis; villous atrophy; viral enteritis
+  pages: 254-261
+  pmid: '26046819'
+  title: 'Self-limited coeliac-like enteropathy: a series of 18 cases highlighting
+    another coeliac disease mimic'
+  type: Journal Article
+  url: http://dx.doi.org/10.1111/his.12752
+  volume: '68'
+  year: '2016'
+- abstract: "AIMS: Most colorectal polyps are classified readily, but a subset of\
+    \ tubulovillous adenomas (TVA) with prominent serrated architecture causes diagnostic\
+    \ confusion. We aimed to (i) identify histological features that separate serrated\
+    \ TVAs from both conventional TVAs and traditional serrated adenomas (TSA) and\
+    \ (ii) perform a clinicopathological and molecular analysis to determine if the\
+    \ serrated TVA has unique features. METHODS AND RESULTS: We collected 48 serrated\
+    \ TVAs, 50 conventional TVAs and 66 BRAF wild-type TSAs for analysis. For each\
+    \ polyp we performed a clinicopathological assessment, BRAF and KRAS mutation\
+    \ profiling, cytosine-phosphate-guanosine (CpG) island methylator phenotype status,\
+    \ MGMT methylation and immunohistochemical assessment of seven markers [MutL homologue\
+    \ 1 (MLH1), p16, p53, \u03B2-catenin, Ki67, CK7 and CK20]. We found that serrated\
+    \ TVAs can be diagnosed reliably, and have features distinct from both conventional\
+    \ TVAs and TSAs. Compared to conventional TVAs, serrated TVAs are larger, more\
+    \ often proximal, more histologically advanced, show more CpG island methylation\
+    \ and more frequent KRAS mutation. Compared to TSAs they are more often proximal,\
+    \ show less CpG island methylation, more frequent MGMT methylation and more frequent\
+    \ nuclear staining for \u03B2-catenin. CONCLUSIONS: The serrated TVA can be diagnosed\
+    \ reliably and has unique features. It represents a precursor of KRAS mutated,\
+    \ microsatellite stable colorectal carcinoma."
+  authors:
+  - Bettington M
+  - Walker N
+  - Rosty C
+  - Brown I
+  - Clouston A
+  - McKeone D
+  - Pearson SA
+  - Klein K
+  - Leggett B
+  - Whitehall V
+  date: 2016-03
+  doi: 10.1111/his.12788
+  issue: '4'
+  journal: Histopathology
+  keywords: adenoma; colonic polyps; serrated; traditional serrated adenoma; tubulovillous
+    adenoma
+  pages: 578-587
+  pmid: '26212352'
+  title: Serrated tubulovillous adenoma of the large intestine
+  type: Journal Article
+  url: http://dx.doi.org/10.1111/his.12788
+  volume: '68'
+  year: '2016'
+- abstract: "AIMS: Screening colonoscopy has led to more colorectal carcinomas presenting\
+    \ at an early stage potentially curable by endoscopic resection. In this study,\
+    \ we examined the clinical and histological features of a contemporary series\
+    \ of malignant colorectal polyps (MCPs) with subsequent surgical resection. METHODS:\
+    \ We conducted a retrospective study on a consecutive series of MCPs from 239\
+    \ patients, predominantly males (57.7%) with a median age of 66 years, and assessed\
+    \ histological parameters associated with residual disease on the surgical specimens.\
+    \ RESULTS: Median MCP size was 18.6 mm, with 23.1% polyps measuring \u226410 mm.\
+    \ From the 140 surgical resection specimens, residual disease was identified in\
+    \ 20 cases, including 12 cases with metastatic lymph nodes and/or 9 cases with\
+    \ residual carcinoma in the large bowel wall. Histological parameters associated\
+    \ with nodal metastases were greater width and greater depth of the invasive component\
+    \ (p=0.001 and 0.006, respectively), poor differentiation (p=0.003) and a cribriform\
+    \ pattern (p=0.01). The risk of nodal metastases was 23.3% if two or three of\
+    \ these features were identified, while it was 0% and 4.5% if none or one was\
+    \ present, respectively. A positive margin was not associated with nodal metastasis\
+    \ and might be adequately treated by local endoscopic resection. CONCLUSIONS:\
+    \ Surgical resection should be recommended if \u22652 of these adverse histological\
+    \ features are present and may be warranted if one feature is present. A positive\
+    \ margin may require additional local resection but not necessarily surgery if\
+    \ no other adverse factors are present."
+  authors:
+  - Brown IS
+  - Bettington ML
+  - Bettington A
+  - Miller G
+  - Rosty C
+  date: 2016-04
+  doi: 10.1136/jclinpath-2015-203203
+  issue: '4'
+  journal: Journal of clinical pathology
+  keywords: CANCER; COLON; GASTROINTESTINAL DISEASE; MALIGNANT TUMOURS
+  pages: 292-299
+  pmid: '26424814'
+  title: 'Adverse histological features in malignant colorectal polyps: a contemporary
+    series of 239 cases'
+  type: Journal Article
+  url: http://dx.doi.org/10.1136/jclinpath-2015-203203
+  volume: '69'
+  year: '2016'
+- abstract: "The traditional serrated adenoma is the least common colorectal serrated\
+    \ polyp. The clinicopathological features and molecular drivers of these polyps\
+    \ require further investigation. We have prospectively collected a cohort of 200\
+    \ ordinary and advanced traditional serrated adenomas and performed BRAF and KRAS\
+    \ mutational profiling, CpG island methylator phenotype analysis, and immunohistochemistry\
+    \ for a panel of 7 antibodies (MLH1, \u03B2-catenin, p53, p16, Ki67, CK7, and\
+    \ CK20) on all cases. The mean age of the patients was 64 years and 50% were female.\
+    \ Of the polyps, 71% were distal. Advanced histology (overt dysplasia or carcinoma)\
+    \ was present in 19% of cases. BRAF mutation was present in 67% and KRAS mutation\
+    \ in 22%. BRAF mutant traditional serrated adenomas were more frequently proximal\
+    \ (39% versus 2%; P\u22640.0001), were exclusively associated with a precursor\
+    \ polyp (57% versus 0%; P\u22640.0001), and were more frequently CpG island methylator\
+    \ phenotype high (60% versus 16%; P\u22640.0001) than KRAS mutant traditional\
+    \ serrated adenomas. Advanced traditional serrated adenomas retained MLH1 expression\
+    \ in 97%, showed strong p53 staining in 55%, and nuclear \u03B2-catenin staining\
+    \ in 40%. P16 staining was lost in the advanced areas of 55% of BRAF mutant traditional\
+    \ serrated adenomas compared with 10% of the advanced areas of KRAS mutant or\
+    \ BRAF/KRAS wild-type traditional serrated adenomas. BRAF and KRAS mutant traditional\
+    \ serrated adenomas are morphologically related but biologically disparate polyps\
+    \ with distinctive clinicopathological and molecular features. The overwhelming\
+    \ majority of traditional serrated adenomas retain mismatch repair enzyme function\
+    \ indicating a microsatellite-stable phenotype. Malignant progression occurs via\
+    \ TP53 mutation and Wnt pathway activation regardless of mutation status. However,\
+    \ CDKN2A (encoding the p16 protein) is silenced nearly exclusively in the advanced\
+    \ areas of the BRAF mutant traditional serrated adenomas. Thus, the BRAF mutant\
+    \ traditional serrated adenoma represents an important precursor of the aggressive\
+    \ BRAF mutant, microsatellite-stable subtype of colorectal carcinoma."
+  authors:
+  - Bettington ML
+  - Walker NI
+  - Rosty C
+  - Brown IS
+  - Clouston AD
+  - McKeone DM
+  - Pearson SA
+  - Klein K
+  - Leggett BA
+  - Whitehall VL
+  date: 2015-03
+  doi: 10.1038/modpathol.2014.122
+  issue: '3'
+  journal: 'Modern pathology: an official journal of the United States and Canadian
+    Academy of Pathology, Inc'
+  keywords: ''
+  pages: 414-427
+  pmid: '25216220'
+  title: A clinicopathological and molecular analysis of 200 traditional serrated
+    adenomas
+  type: Journal Article
+  url: http://dx.doi.org/10.1038/modpathol.2014.122
+  volume: '28'
+  year: '2015'
+- abstract: "Objective Sessile serrated adenomas (SSAs) are the precursors of at least\
+    \ 15% of colorectal carcinomas, but their biology is incompletely understood.\
+    \ We performed a clinicopathological and molecular analysis of a large number\
+    \ of the rarely observed SSAs with dysplasia/carcinoma to better define their\
+    \ features and the pathways by which they progress to carcinoma.Design A cross-sectional\
+    \ analysis of 137 SSAs containing regions of dysplasia/carcinoma prospectively\
+    \ collected at a community GI pathology practice was conducted. Samples were examined\
+    \ for BRAF and KRAS mutations, the CpG island methylator phenotype (CIMP) and\
+    \ immunostained for MLH1, p53, p16, \u03B2-catenin and 0-6-methylguanine DNA methyltransferase\
+    \ (MGMT).Results The median polyp size was 9 mm and 86.5% were proximal. Most\
+    \ were BRAF mutated (92.7%) and 94.0% showed CIMP. Mismatch repair deficiency,\
+    \ evidenced by loss of MLH1 (74.5%) is associated with older age (76.7 versus\
+    \ 71.0; pConclusions SSAs containing dysplasia/carcinoma are predominantly small\
+    \ ("
+  authors:
+  - Bettington M
+  - Walker N
+  - Rosty C
+  - Brown I
+  - Clouston A
+  - McKeone D
+  - Pearson SA
+  - Leggett B
+  - Whitehall V
+  date: '2015-10-15'
+  doi: 10.1136/gutjnl-2015-310456
+  issue: ''
+  journal: Gut
+  keywords: ''
+  pages: gutjnl-2015-310456
+  pmid: '26475632'
+  title: Clinicopathological and molecular features of sessile serrated adenomas with
+    dysplasia or carcinoma
+  type: Journal Article
+  url: http://dx.doi.org/10.1136/gutjnl-2015-310456
+  volume: ''
+  year: '2015'
+- abstract: The average age at diagnosis for colorectal cancer (CRC) in Australia
+    is 69, and the age-specific incidence rises rapidly after age 50 years. The incidence
+    has stabilized or is declining in older age groups in Australia during recent
+    decades, possibly related to the increased uptake of screening and high-risk surveillance.
+    In the same time frame, a rising incidence of CRC in younger adults has been well-documented
+    in the United States. This rise in incidence in the young has not been reported
+    from other countries that share long-term exposure to westernised urban lifestyles.
+    Using data from the Australian Institute of Health and Welfare, we examined trends
+    in national incidence rates for CRC under age 50 years and observed that rates
+    in people under age 40 years have been rising for the last two decades. We further
+    performed a review of the literature regarding CRC in young adults to outline
+    the extent of current understanding, explore potential risk factors such as obesity,
+    alcohol, and sedentary lifestyles, and to identify the questions remaining to
+    be addressed. Although absolute numbers might not justify a population screening
+    approach, the dispersal of young adults with CRC across the primary health-care
+    system decreases probability of their recognition. Patient and physician awareness,
+    aided by stool and emerging blood-screening tests and risk profiling tools, have
+    the potential to aid in identification of those young adults who would most benefit
+    from a colonoscopy through early detection of CRCs or by removal of advanced polyps.
+  authors:
+  - Young JP
+  - Win AK
+  - Rosty C
+  - Flight I
+  - Roder D
+  - Young GP
+  - Frank O
+  - Suthers GK
+  - Hewett PJ
+  - Ruszkiewicz A
+  - Hauben E
+  - Adelstein BA
+  - Parry S
+  - Townsend A
+  - Hardingham JE
+  - Price TJ
+  date: 2015-01
+  doi: 10.1111/jgh.12792
+  issue: '1'
+  journal: Journal of gastroenterology and hepatology
+  keywords: early-onset colorectal cancer; outcomes; presentation; risk factors
+  pages: 6-13
+  pmid: '25251195'
+  title: 'Rising incidence of early-onset colorectal cancer in Australia over two
+    decades: report and review'
+  type: Review
+  url: http://dx.doi.org/10.1111/jgh.12792
+  volume: '30'
+  year: '2015'
+- abstract: The sessile serrated adenoma (SSA) is a relatively recently described
+    polyp that can present diagnostic difficulties for the practicing pathologist.
+    The frequency of SSA diagnoses varies dramatically in the reported literature.
+    In addition, the histologic interface between the microvesicular hyperplastic
+    polyp (MVHP) and the SSA continues to be a diagnostic problem. The trend in recent
+    years has been toward a lower threshold for SSA diagnosis. Herein, we have performed
+    a cross-sectional study of 6340 colorectal polyps received at a high-volume community-based
+    pathology practice over a 3-month period. After central review, with strict application
+    of the diagnostic criteria outlined in the 2010 edition of the World Health Organization
+    Classification of Tumours of the Digestive Tract, we found that SSAs represented
+    12.1% of all polyps. In addition, we developed novel diagnostic subcategories
+    in an attempt to determine the most appropriate cutoff for the interface between
+    the MVHP and the SSA. We found that serrated polyps (MVHPs or SSAs) with any SSA-like
+    crypts had clinical features more in common with the SSA than the MVHP and that
+    this diagnostic cutoff showed good reproducibility between pathologists. This
+    supports the position of a recent consensus publication proposing that polyps
+    with as few as 1 SSA-type crypt should be diagnosed as an SSA. Applying these
+    criteria to our cohort yields an overall SSA rate of 14.7%. In summary, we believe
+    that SSAs continue to be underdiagnosed in pathologic practice and that this may
+    result in inadequate surveillance and thus contribute to interval colorectal carcinomas.
+  authors:
+  - Bettington M
+  - Walker N
+  - Rosty C
+  - Brown I
+  - Clouston A
+  - Wockner L
+  - Whitehall V
+  - Leggett B
+  date: 2014-02
+  doi: 10.1097/PAS.0000000000000103
+  issue: '2'
+  journal: The American journal of surgical pathology
+  keywords: ''
+  pages: 158-166
+  pmid: '24418851'
+  title: Critical appraisal of the diagnosis of the sessile serrated adenoma
+  type: Journal Article
+  url: http://dx.doi.org/10.1097/PAS.0000000000000103
+  volume: '38'
+  year: '2014'
+- abstract: Cronkhite-Canada syndrome is a rare protein-losing enteropathy, classically
+    characterized by ectodermal changes and gastrointestinal polyposis. The etiology
+    remains obscure but immune dysregulation may be important. The diagnosis of Cronkhite-Canada
+    syndrome in the upper gastrointestinal tract is challenging, frequently resulting
+    in delayed patient management. In this study, we described the initial clinical
+    presentations, upper gastrointestinal endoscopic appearances, clinical follow-up,
+    and histologic diagnoses in 7 patients who were subsequently diagnosed with Cronkhite-Canada
+    syndrome. Histology slides were reviewed, and IgG4 immunohistochemical analysis
+    was performed. The most common initial endoscopic impressions were antral malignancy
+    and gastric infection, but gastroduodenal polyposis was not described. On histologic
+    review, the main findings in the gastric mucosa were a prominent mucosal edema,
+    a mixed inflammatory infiltrate rich in eosinophils, and architectural changes
+    with gland dilatation and withering. In the duodenal mucosa, total or subtotal
+    duodenal villous atrophy, inflammation, crypt distortion, and increased apoptotic
+    bodies were the most common features. Three patients died of the disease, and
+    4 patients were asymptomatic at a mean follow-up of 3.5 years. No intestinal malignancy
+    had been diagnosed. In 2 patients foci of dysplasia in colonic polyps were identified.
+    In only 1 patient, a significant increase in IgG4-positive plasma cells was observed
+    in a colonic polyp. In summary, we found that patients with Cronkhite-Canada syndrome
+    have histologic features commonly found in other immune disorders of the gastrointestinal
+    tract that may help in establishing the diagnosis and further supports the hypothesis
+    that Cronkhite-Canada syndrome may represent an immune dysregulation syndrome,
+    different from IgG4-related disease.
+  authors:
+  - Bettington M
+  - Brown IS
+  - Kumarasinghe MP
+  - de Boer B
+  - Bettington A
+  - Rosty C
+  date: 2014-02
+  doi: 10.1097/PAS.0000000000000098
+  issue: '2'
+  journal: The American journal of surgical pathology
+  keywords: ''
+  pages: 215-223
+  pmid: '24418855'
+  title: 'The challenging diagnosis of Cronkhite-Canada syndrome in the upper gastrointestinal
+    tract: a series of 7 cases with clinical follow-up'
+  type: Journal Article
+  url: http://dx.doi.org/10.1097/PAS.0000000000000098
+  volume: '38'
+  year: '2014'
+- abstract: Tropical sprue is an acquired chronic diarrheal disorder of unclear etiology
+    affecting residents of and visitors to tropical regions. Patients usually present
+    with profuse diarrhea, weight loss, and malabsorption, notably of vitamin B12
+    and folate. The histologic changes typically resemble that of gluten-sensitive
+    enteropathy. Reports of tropical sprue have become infrequent in the literature,
+    and the diagnosis is often not considered either clinically or pathologically.
+    This disease may, however, cause significant morbidity, although it is eminently
+    treatable with broad-spectrum antibiotics. In this study, we report the clinical
+    presentation of 12 tropical sprue patients along with the histologic changes of
+    the intestinal mucosa and compare it with those of a series of 150 cases of gluten-sensitive
+    enteropathy, the condition with which it is most frequently misdiagnosed. The
+    cohort comprised 6 men and 6 women with a median age of 59 years (range, 38 to
+    78 y) with a history of residence or visitation in South Asia or Papua New Guinea.
+    Partial villous blunting in the duodenal mucosa was present in 75% of cases, and
+    a marked intraepithelial lymphocytosis was observed in all cases (mean per 100
+    epithelial cells 77.3; range, 42 to 124). A villous tip accentuation of intraepithelial
+    lymphocytosis was not appreciable in most cases. No case of complete villous blunting
+    (Marsh stage 3c) was identified in tropical sprue, contrasting with 25% in gluten-sensitive
+    enteropathy cases. A duodenal mucosa eosinophil infiltrate was present in all
+    cases with significantly higher counts compared with untreated gluten-sensitive
+    enteropathy patients (26.6/HPF vs. 14.6/HPF; P=0.009). The ileal mucosa displayed
+    more severe villous blunting with higher Marsh stages than in the corresponding
+    duodenum from 5 patients. There was a mild intraepithelial lymphocytosis and eosinophil
+    infiltrate in the colonic mucosa of half of the cases. Follow-up biopsies in 6
+    patients demonstrated a histologic response after oral folates and doxycycline
+    treatment. In summary, tropical sprue is a pan-enteric inflammatory process often
+    mistaken for gluten-sensitive enteropathy. Histologic findings suggesting tropical
+    sprue in the appropriate clinical context include incomplete duodenal villous
+    blunting without development of flat mucosa, frequent involvement of the terminal
+    ileum with more marked inflammation and villous blunting than in the duodenum,
+    and a conspicuous eosinophil infiltrate in the lamina propria. With the expansion
+    of tourism and increasing employment opportunities in tropical regions, pathologists
+    in the West are increasingly likely to encounter cases of tropical sprue and should
+    be aware of this diagnosis.
+  authors:
+  - Brown IS
+  - Bettington A
+  - Bettington M
+  - Rosty C
+  date: 2014-05
+  doi: 10.1097/PAS.0000000000000153
+  issue: '5'
+  journal: The American journal of surgical pathology
+  keywords: ''
+  pages: 666-672
+  pmid: '24441659'
+  title: 'Tropical sprue: revisiting an underrecognized disease'
+  type: Journal Article
+  url: http://dx.doi.org/10.1097/PAS.0000000000000153
+  volume: '38'
+  year: '2014'
+- abstract: 'Approximately 30% of colorectal carcinomas develop via the serrated neoplasia
+    pathway characterized by widespread DNA methylation and frequent BRAF mutation.
+    Serrated polyps represent a heterogeneous group of polyps which are the precursor
+    lesions to serrated pathway colorectal carcinomas. The histological classification
+    of serrated polyps has evolved over the last two decades to distinguish three
+    separate entities: hyperplastic polyp, sessile serrated adenoma (SSA), and traditional
+    serrated adenoma (TSA). The malignant potential of SSAs and TSAs has been clearly
+    demonstrated. SSAs are more challenging to detect by colonoscopy and are likely
+    to account for some interval carcinomas of the proximal colon. Serrated polyposis
+    syndrome is now widely recognized as conferring a high risk of colorectal carcinoma
+    although its cause remains elusive. The current understanding of the actual malignant
+    potential of each serrated polyp subtype is still limited due to the lack of large-scale
+    prospective studies. Patient management guidelines have been recently updated
+    although high-level evidence to support them is still required.'
+  authors:
+  - Rosty C
+  - Hewett DG
+  - Brown IS
+  - Leggett BA
+  - Whitehall VL
+  date: 2013-03
+  doi: 10.1007/s00535-012-0720-y
+  issue: '3'
+  journal: Journal of gastroenterology
+  keywords: ''
+  pages: 287-302
+  pmid: '23208018'
+  title: 'Serrated polyps of the large intestine: current understanding of diagnosis,
+    pathogenesis, and clinical management'
+  type: Review
+  url: http://dx.doi.org/10.1007/s00535-012-0720-y
+  volume: '48'
+  year: '2013'
+- abstract: The main histologic feature of celiac disease is increased intraepithelial
+    lymphocytes (IELs) with or without villous atrophy of the duodenal mucosa. The
+    aim of this study was to document a broad range of additional morphologic changes
+    in intestinal mucosa biopsy specimens from patients with celiac disease. Our cohort
+    comprised 150 patients with positive tissue transglutaminase serologic findings;
+    7 were at Corazza stage A1, 58 at stage B1, and 85 at stage B2. IEL counts per
+    100 epithelial cells ranged from 34 to 156 (mean, 88.6); a significant neutrophilic
+    infiltrate was present in 85 cases (56.7%); eosinophil count ranged from 3 to
+    50 per high-power field (mean, 14.6). Additional findings included morphologic
+    changes in enterocytes in 68.7%, subepithelial collagen thickening in 45.3%, and
+    associated lymphocytic gastritis in 30.4% of patients. We demonstrated that these
+    underrecognized features, which can be misleading, are not uncommon in celiac
+    disease and were positively associated with more advanced stages of the disease
+    (P < .0001).
+  authors:
+  - Brown IS
+  - Smith J
+  - Rosty C
+  date: 2012-07
+  doi: 10.1309/AJCPE89ZPVJTSPWL
+  issue: '1'
+  journal: American journal of clinical pathology
+  keywords: ''
+  pages: 42-49
+  pmid: '22706856'
+  title: 'Gastrointestinal pathology in celiac disease: a case series of 150 consecutive
+    newly diagnosed patients'
+  type: Journal Article
+  url: http://dx.doi.org/10.1309/AJCPE89ZPVJTSPWL
+  volume: '138'
+  year: '2012'
+- abstract: "Advanced colorectal polyps are identified based on size \u226510 mm,\
+    \ high-grade dysplasia, and/or villous histology. A diagnosis of tubular adenoma\
+    \ (TA) is recommended if villous change occupies <20% of the lesion, or tubulovillous\
+    \ adenoma (TVA) is recommended if there is 20% to 80% villosity. We hypothesized\
+    \ that even subtle villous changes (1% to 20%) would correlate with advanced molecular\
+    \ features. Two hundred sixty-nine colorectal adenomas were examined for KRAS\
+    \ and BRAF mutation and immunohistochemical staining of \u03B2-catenin, O6-Methyl\
+    \ Guanine DNA Methyltransferase (MGMT), and p53. Adenomas were classified as TA1\
+    \ (0% villosity, n=70), TA2 (1% to 20% villosity, n=81), or TVA (21% to 80% villosity,\
+    \ n=118). Clinical and molecular features were analyzed by univariate \u03C7\xB2\
+    \ and multivariate logistic regression. There was an incremental increase in KRAS\
+    \ mutation frequency with increasing villous compartment (17.9% TA1, 59.0% TA2,\
+    \ 78.4% TVA; P<0.001). MGMT was more frequently lost in TA2 (37.0%) than in TA1\
+    \ (8.6%) (P<0.001) but did not differ from TVA (39.8%). p53 overexpression was\
+    \ more common in TA2 (38.3%) than in TA1 (10.0%) (P<0.001) but did not differ\
+    \ from TVA (32.2%). On multivariate analysis, TA2 adenomas were more likely to\
+    \ have a KRAS mutation [odds ratio (OR) 6.6, 95% confidence interval (CI), 3.0-14.2],\
+    \ MGMT loss (OR 6.2, 95% CI, 2.4-16.0), or p53 overexpression (OR 5.6, 95% CI,\
+    \ 2.3-13.7) than TA1. We have identified a subgroup of TAs based on subtle villous\
+    \ changes. These adenomas are more likely to show molecular features that are\
+    \ characteristic of TVAs than TAs. These data support the concept that any villous\
+    \ change may indicate increased malignant potential and may be useful to consider\
+    \ when assigning surveillance guidelines."
+  authors:
+  - Ishii T
+  - Notohara K
+  - Umapathy A
+  - Mallitt KA
+  - Chikuba H
+  - Moritani Y
+  - Tanaka N
+  - Rosty C
+  - Matsubara N
+  - Jass J
+  - Leggett B
+  - Whitehall V
+  date: 2011-02
+  doi: 10.1097/PAS.0b013e318205df20
+  issue: '2'
+  journal: The American journal of surgical pathology
+  keywords: ''
+  pages: 212-220
+  pmid: '21263241'
+  title: Tubular adenomas with minor villous changes show molecular features characteristic
+    of tubulovillous adenomas
+  type: Journal Article
+  url: http://dx.doi.org/10.1097/PAS.0b013e318205df20
+  volume: '35'
+  year: '2011'
+- abstract: Colonic mucosubmucosal elongated polyp (CMSEP) is a distinctive non-neoplastic
+    colorectal polyp characterized by pedunculated, elongated shape and is composed
+    mainly of expanded submucosa with a normal mucosal lining. Only a small number
+    of these polyps have been reported, exclusively from Japan. We report the clinicopathologic
+    characteristics of 13 CMSEPs occurring in 11 patients, mostly from European ancestry.
+    Ten of these polyps were resected during colonoscopy, and 3 were diagnosed in
+    a patient who underwent sigmoid resection for diverticular disease. Among patients
+    who had undergone a colonoscopy, 4 had altered bowel habit, and 1 suffered from
+    abdominal discomfort; the other 5 patients had routine screening colonoscopy.
+    Eight polyps were located in the sigmoid colon, 3 in the right colon, 1 in the
+    rectosigmoid junction, and 1 in the descending colon. Polyp size ranged from 10
+    to 150 mm. Histologically, CMSEPs were characterized by unremarkable large bowel
+    mucosa and submucosal stalk containing dilated thick-walled veins running parallel
+    to the long axis of the polyp. Mucosal inflammation or fibromuscular proliferation
+    characteristic of mucosal prolapse was absent. The pathogenesis of CMSEP may involve
+    mechanical traction of the mucosa and the superficial submucosa during peristalsis
+    in a fragile area of the colon. Despite the occasional large size, CMSEP is a
+    benign lesion seldom leading to clinical complications.
+  authors:
+  - Alizart MM
+  - Rosty C
+  - Brown IS
+  date: 2011-12
+  doi: 10.1097/PAS.0b013e31822c0688
+  issue: '12'
+  journal: The American journal of surgical pathology
+  keywords: ''
+  pages: 1818-1822
+  pmid: '21989340'
+  title: 'Colonic mucosubmucosal elongated polyp: a clinicopathologic study of 13
+    cases and review of the literature'
+  type: Review
+  url: http://dx.doi.org/10.1097/PAS.0b013e31822c0688
+  volume: '35'
+  year: '2011'
 
