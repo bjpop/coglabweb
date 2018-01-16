@@ -25,6 +25,18 @@
         <p>Dr Rosty is a specialist gastrointestinal Anatomical Pathologist, trained in Paris and graduated in 1997. His interest in gastro-intestinal cancer research started during his residency when he started his PhD which was completed in 2002 (University Necker – Paris 5). He spent 2 years in the Gastrointestinal Pathology Department at the Johns Hopkins University in Baltimore, USA, as a Postdoctoral Research Fellow. In 2009, Dr Rosty moved to Brisbane and currently works as a specialist Pathologist at Envoi Pathology, a pathology practice exclusively dedicated to gastro-intestinal and liver pathology with strong teaching and academic activities (<a href="http://www.envoi.com.au">http://www.envoi.com.au</a>).</p><p>His collaboration with Dr Buchanan started in 2009 at the QIMR Berghofer Medical Research Institute in Brisbane. His research interests include the genetics and the molecular pathology of gastrointestinal neoplasms, in particular Lynch syndrome, serrated polyposis and hereditary gastrointestinal polyposis syndromes.</p>
 
 -
+    name: Dr Mark Clendenning 
+    photo: assets/img/mark_clendenning.jpg
+    role: Molecular Biologist and Geneticist 
+    level: Research Fellow
+    affiliation: Department of Pathology
+    email: mark.clendenning@unimelb.edu.au  
+    publications: <a href="https://scholar.google.com.au/citations?user=gGezr5oAAAAJ&hl=en">Google scholar</a>
+    career: |
+       <p>Mark is a serial expatriate from the UK, with a B.Sc. in Genetics from the University of Sheffield. He obtained his Ph.D. through the University of Bristol, whilst studying the genomic architecture of the chicken Natural Killer Complex and its relation to Marek’s disease resistance.</p><p>Upon the completion of his Ph.D. he took up a postdoctoral position at the Ohio State University under the mentorship of the world-renowned human geneticist Albert de la Chapelle. Here, Mark utilised the molecular techniques and knowledge acquired from working with the chicken genome to advance our understanding of the mutational spectrum involved in Lynch syndrome, a genetic disease which predisposes affected individuals to a spectrum of cancers, primarily colorectal (bowel) and endometrial (uterus).</p><p>In 2008, Mark joined the familial cancer laboratory at QIMR in Brisbane where he was able to apply his molecular knowledge to the Australian colon cancer family cohort. Currently, Mark continues to work on Lynch syndrome as well as other subtypes of familial colorectal cancer, within the Oncogenomics Group at the University of Melbourne.</p><p>In particular, Mark’s work has focused on the PMS2 gene and through the development of a novel mutation screening method he has achieved worldwide recognition as an authority on the validity and interpretation of mutations within this gene.</p>
+
+
+-
     name: Dr Harindra Jayasekara 
     photo: assets/img/harindra_jayasekara.jpg
     role: Epidemiologist  
