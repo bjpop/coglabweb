@@ -29,7 +29,7 @@ MAX_LATEST_PUBLICATIONS = 3
 # Number of latest presentations to show on index.html
 MAX_LATEST_PRESENTATIONS = 3
 # Number of latest activities to show on index.html
-MAX_LATEST_ACTIVITIES = 5
+MAX_LATEST_ACTIVITIES = 4
 
 
 try:
