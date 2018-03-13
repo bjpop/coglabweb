@@ -70,6 +70,17 @@
     career: |
         <p>BEng (Hons I)/BMath MSc(CompSci)</p><p>Peter is a bioinformatician with a background in software engineering.</p><p>Peter started his career in industry as a software engineer, working on, among other things, establishing the UK's first independent online payment provider. Recently switching to bioinformatics, Peter completed his Master of Science (Computer Science) at the University of Melbourne in 2016. He was the recipient of numerous awards, including a place on the Dean's Merit List, the Johnny Smoes award for excellence in software development, and the Australian Artificial Intelligence Institute Prize.</p><p>More recently, while employed at Melbourne Bioinformatics, Peter specialised in the design, development and implementation of analysis pipelines and the application of novel analysis methods to large genomics datasets. Peter is particularly interested in the application of computational and statistical methods such as machine learning to genomics problems.</p><p>In 2018, Peter commenced a PhD with Associate Professor Dan Buchanan and Dr Bernard Pope, with a view to improving our understanding of the aetiology of colorectal cancer, to improve diagnosis, prevention, and treatment of the disease.</p>
 
+-
+    name: Dr Khalid Mahmood 
+    photo: assets/img/khalid_mahmood_bw.jpg
+    role: Bioinformatician 
+    level: Research Fellow  
+    affiliation: Melbourne Bioinformatics 
+    phone: 
+    email: khalid.mahmood@unimelb.edu.au  
+    career: |
+        <p>Dr. Khalid Mahmood is a bioinformatician in the lab, being trained in computational biology from Monash University. The focus of his PhD was the development of computational algorithms for comparative genomics with emphasis on identifying orthologous genes, homologous genomic segments and other complex evolutionary events when comparing genomes. Khalid is also experienced in studying relationships between protein sequences and structures.</p><p>Khalid’s recent work in the lab focuses on bringing together computational methods and genomics to understand genetics of colorectal cancer. Khalid is very interested in developing methods to investigate the relationship between genetic mutations and their impact on protein function and relationship with disease.</p>
+
 
 -
     name: Dr Bernard Pope
