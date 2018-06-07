@@ -59,6 +59,17 @@
         <p>B.Sc (Honours), PhD</p><p>Dr Joo is a molecular biologist and a bioinformatician with a strong background in cancer epigenetics, especially DNA methylation. He brings to the team both his laboratory and data analysis expertise in genome-wide methylation techniques and methodology. He specialises in molecular techniques and analyses of genome-wide as well as loci-specific detection of DNA methylation and gene expression using a variety of platforms, including those based on microarrays and NGS.</p><p>Dr Joo completed his PhD at the Murdoch Childrens Research Institute in 2012. After carrying out his first postdoc at the Genetic Epidemiology Laboratory (The University of Melbourne), he joined the Colorectal Oncogenomics Group in 2018. He has special interests in the epigenetic aspects of colorectal cancer. His research focuses on identifying aberrant DNA methylation marks associated with the polyp-to-cancer progression as well as DNA methylation marks associated with specific subsets of colorectal cancer including early onset CRC.</p>
 
 -
+    name: Dr Khalid Mahmood 
+    photo: assets/img/khalid_mahmood_bw.jpg
+    role: Bioinformatician 
+    level: Research Fellow  
+    affiliation: Melbourne Bioinformatics 
+    phone: 
+    email: khalid.mahmood@unimelb.edu.au  
+    career: |
+        <p>Dr. Khalid Mahmood is a bioinformatician in the lab, being trained in computational biology from Monash University. The focus of his PhD was the development of computational algorithms for comparative genomics with emphasis on identifying orthologous genes, homologous genomic segments and other complex evolutionary events when comparing genomes. Khalid is also experienced in studying relationships between protein sequences and structures.</p><p>Khalid’s recent work in the lab focuses on bringing together computational methods and genomics to understand genetics of colorectal cancer. Khalid is very interested in developing methods to investigate the relationship between genetic mutations and their impact on protein function and relationship with disease.</p>
+
+-
     name: Mr Peter Georgeson 
     photo: assets/img/peter_georgeson_bw.jpg
     role: Bioinformatician 
@@ -71,15 +82,15 @@
         <p>BEng (Hons I)/BMath MSc(CompSci)</p><p>Peter is a bioinformatician with a background in software engineering.</p><p>Peter started his career in industry as a software engineer, working on, among other things, establishing the UK's first independent online payment provider. Recently switching to bioinformatics, Peter completed his Master of Science (Computer Science) at the University of Melbourne in 2016. He was the recipient of numerous awards, including a place on the Dean's Merit List, the Johnny Smoes award for excellence in software development, and the Australian Artificial Intelligence Institute Prize.</p><p>More recently, while employed at Melbourne Bioinformatics, Peter specialised in the design, development and implementation of analysis pipelines and the application of novel analysis methods to large genomics datasets. Peter is particularly interested in the application of computational and statistical methods such as machine learning to genomics problems.</p><p>In 2018, Peter commenced a PhD with Associate Professor Dan Buchanan and Dr Bernard Pope, with a view to improving our understanding of the aetiology of colorectal cancer, to improve diagnosis, prevention, and treatment of the disease.</p>
 
 -
-    name: Dr Khalid Mahmood 
-    photo: assets/img/khalid_mahmood_bw.jpg
-    role: Bioinformatician 
-    level: Research Fellow  
-    affiliation: Melbourne Bioinformatics 
+    name: Ms Romy Walker
+    photo: assets/img/romy_walker.jpg
+    role: Molecular Geneticist 
+    level: PhD candidate 
+    affiliation: Department of Clinical Pathology
     phone: 
-    email: khalid.mahmood@unimelb.edu.au  
+    email: romy@student.unimelb.edu.au 
     career: |
-        <p>Dr. Khalid Mahmood is a bioinformatician in the lab, being trained in computational biology from Monash University. The focus of his PhD was the development of computational algorithms for comparative genomics with emphasis on identifying orthologous genes, homologous genomic segments and other complex evolutionary events when comparing genomes. Khalid is also experienced in studying relationships between protein sequences and structures.</p><p>Khalid’s recent work in the lab focuses on bringing together computational methods and genomics to understand genetics of colorectal cancer. Khalid is very interested in developing methods to investigate the relationship between genetic mutations and their impact on protein function and relationship with disease.</p>
+        <p>Romy is a Human Geneticist having undergone her B. Sc. and M. Sc. Degree at the University Hospital Regensburg in Germany. Upon completion, she obtained a position in a routine Diagnostics Department, focusing on hereditary tumour and rare eye diseases.</p><p>During her 4-year stay at the Institute of Human Genetics, she commenced an advanced training program offered by The German Society of Human Genetics, which she is a member of. This 5-year educational program allows scientists certified as “clinical genetic laboratory specialist” to work as professionals in clinical genetics and patients care.</p><p>Beginning 2018, Romy has finalised her major in molecular genetics (3 years) and has started a PhD with Associate Professor Daniel Buchanan. The research focus will be set on establishing novel diagnostic approaches for risk stratification of individuals with mismatch repair-deficient cancer.</p>
 
 
 -
