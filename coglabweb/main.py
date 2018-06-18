@@ -172,8 +172,8 @@ def render_pages(options, jinja_env):
         .add_content("contents", options.templates, "presentations.yaml") \
         .render_page(jinja_env, options.outdir)
 
-    Template("partners.html") \
-        .add_content("contents", options.templates) \
+    Template("studies.html") \
+        .add_content("contents", options.templates, "studies.yaml") \
         .render_page(jinja_env, options.outdir)
 
     Template("team.html") \

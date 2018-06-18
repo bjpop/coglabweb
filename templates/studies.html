@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Partners{% endblock %}
+{% set active_page = "partners" %}
+{% block content %}   
+{{ super () }}
+
+<h1 class="display-4 my-5">Studies and Collaborators</h1>
+
+{% for study in contents.studies %}
+
+  <div class="card my-5">
+    <h4 class="card-header">{{ study.title }}</h4>
+    <div class="card-body">
+      <dl class="row">
+        {% if study.url %}
+          <dt class="col-sm-4">Website</dt>
+          <dd class="col-sm-8"><a href="{{ study.url }}">{{ study.url }}</a></dd>
+        {% endif %}
+
+        {% if study.ethics %}
+          <dt class="col-sm-4">Human Research Ethics</dt>
+          <dd class="col-sm-8">{{ study.ethics }}</dd>
+        {% endif %}
+
+        {% if study.project_sponsor %}
+          <dt class="col-sm-4">Project Sponsor</dt>
+          <dd class="col-sm-8">{{ study.project_sponsor }}</dd>
+        {% endif %}
+
+        {% if study.principal_investigator %}
+          <dt class="col-sm-4">Principal Investigator</dt>
+          <dd class="col-sm-8">{{ study.principal_investigator }}</dd>
+        {% endif %}
+
+        {% if study.coordinator %}
+          <dt class="col-sm-4">Study Coordinator</dt>
+          <dd class="col-sm-8">{{ study.coordinator }}</dd>
+        {% endif %}
+
+        {% if study.investigators %}
+          <dt class="col-sm-4">Associate Investigators</dt>
+          <dd class="col-sm-8">{{ study.investigators }}</dd>
+        {% endif %}
+
+      </dl>
+    </div>
+  </div>
+
+{% endfor %}
+{% endblock %}

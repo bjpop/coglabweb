@@ -1,0 +1,38 @@
+studies:
+  -
+     title: ANGELS – Applying Novel Genomic approaches to Early-onset and suspected Lynch Syndrome colorectal and endometrial cancers
+     ethics: "local: University of Melbourne 1750748, multi site: HREC/18/MH/190, site specific: MH SSA 2018.178"
+     project_sponsor: NHMRC - GNT1125269
+     principal_investigator: Assoc Prof Daniel Buchanan
+     coordinator: Ms Sharelle Joseland
+     investigators: Prof Ingrid Winship, Dr Bernard Pope, Prof Mark Jenkins, Assoc Prof Christophe Rosty, Prof Finlay Macrae, Dr Aung Win, Dr Mark Clendenning, Dr Abiramy Ragunathan, Assoc Prof Amanda Spurdle
+  -
+     title: GCPS – Genetics of Colonic Polyposis Study 
+     ethics: "local: University of Melbourne 1442811"
+     principal_investigator: Assoc Prof Daniel Buchanan 
+     coordinator: Ms Sharelle Joseland 
+     investigators: Prof Susan Parry, Assoc Prof Christophe Rosty, Prof Ingrid Winship, Prof Finlay Macrae, Dr Bernard Pope, Prof Mark Jenkins, Dr Mark Clendenning
+  -
+     title: Genetics of Sebaceous Skin Lesion Study 
+     ethics: "local: University of Melbourne 1648355, RMH 2016.028 HREC/16/MH/8, site specific: SSA/16/MH/275"
+     project_sponsor: NHMRC – GNT1108797 
+     principal_investigator: Prof Ingrid Winship 
+     coordinator: Jessica Taylor and Kirsty Storey 
+     investigators: Assoc Prof Daniel Buchanan, Dr Michael Walsh, Dr Aung Win, Dr Bernard Pope, Prof Mark Jenkins
+  -
+     title: Australasian Colorectal Cancer Family Registry, Colon Cancer Family Registry Cohort
+     url: "http://www.coloncfr.org"
+     ethics: "local: University of Melbourne 1339757"
+     project_sponsor: "NIH – Grant Number 2U01CA167551-07 FAIN: U01CA167551"
+     principal_investigator: Prof Mark Jenkins
+     investigators: Assoc Prof Daniel Buchanan, Prof John Hopper, Dr Aung Win, Prof Ingrid Winship
+  -
+     title: Detecting heritable mutations in post cholecystectomy pain and recurrent pancreatitis - under diagnosis of LPAC disease  
+     ethics: "local: University of Melbourne, national: RMH HREC 2018.224" 
+     principal_investigator: Prof Andrew Metz
+     investigators: Assoc Prof Daniel Buchanan, Dr Andrew Trinh
+  -
+     title: "PEDIGREE – Pathology, Epidemiology, DNA, Informatics & Genetics: A Research Enabling Enterprise"
+     url: "http://www.pedigree.org.au"
+     investigators: Prof Graham Giles, Assoc Prof Roger Milne, Prof Melissa Southey, Prof John Hopper, Prof Mark Jenkins, Prof Ingrid Winship  
+ 
