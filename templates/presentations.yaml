@@ -1,9 +1,31 @@
+- title: "Identifying new colorectal cancer susceptibility variants: a case study in variant prioritisation and functional impact prediction"
+  event: Intelligent Systems for Molecular Biology, Chicago, USA
+  location: Victoria Comprehensive Cancer Centre (VCCC)
+  authors: [Khalid Mahmood, Mark Clendenning, Christophe Rosty, Marie Lorans, Harindra Jayasekara, Neil O’Callaghan, Susan Preston, Thomas Green, Peter Georgeson, Eric Joo, Finlay A. Macrae, Ingrid M. Winship, John L. Hopper, Mark A. Jenkins, Daniel J. Park, Bernard Pope, Daniel D. Buchanan for the Australasian Colorectal Cancer Family Registry]
+  date: July 6-10, 2018  
+  kind: Poster 
+  abstract: "Only a small proportion of the heritable risk for colorectal cancer (CRC) can currently be attributed to mutations within known CRC-associated genes. To address this problem we have undertaken a large-scale study of individuals (N=1130) with a family history of CRC or early onset CRC, using whole genome, exome and targeted DNA sequencing, yielding new likely pathogenic variants in FAN1, NTHL1, POLE and POLD1. In such large studies, variant prioritization for further validation is critical to efficiently direct precious research resources. In this work we will demonstrate our bioinformatics analysis workflow for shortlisting variants for further study in the context of predicted CRC variants, which is likely to be applicable to other rare, highly penetrant, inherited diseases. In the process of refining our workflow we explored the veracity of functional impact prediction tools in order to optimize for sensitivity and specificity of classification. This has led to new insights into the limited degree of concordance and generalizability of classifiers and their dependence on training datasets. We will also describe our efforts to derive new assay-driven test data sets which may be valuable for future benchmarking experiments, and provide more robust assessments of predictor accuracy."
+
+- title: Update on the Genetics of Colonic Polyposis Study and Update on the ANGELS suspected Lynch syndrome study  
+  event: New South Wales Family Cancer Clinics meeting  
+  authors:
+    - Daniel Buchanan 
+  date: 3rd July 2018 
+  kind: Oral presentation 
+
+- title: Genomic Approaches that Improve the Identification and Clinical Actionability of Hereditary Colorectal Cancer and Polyposis syndromes  
+  event: Olivia Newton John Cancer Research Institute seminar series  
+  authors:
+    - Daniel Buchanan 
+  date: 31 May 2018  
+  kind: Oral presentation 
+
 - title: "Low-cost sequence-based gene panel screening: a large scale study of colorectal cancer"
   event: "VCCC Postdoctoral Symposium: New Frontiers in Cancer Research (2018)"
   location: Victoria Comprehensive Cancer Centre (VCCC)
   authors:
     - Khalid Mahmood 
-  date:  1 June 2017
+  date:  1 June 2018
   kind: Oral presentation 
 
 - title: Genomic Approaches that Improve the Identification and Clinical Actionability of Hereditary Colorectal Cancer and Polyposis syndromes 
@@ -11,7 +33,7 @@
   location: Olivia Newton John Cancer Research Institute 
   authors:
     - Dan Buchanan 
-  date: 31 May 2017 
+  date: 31 May 2018 
   kind: Oral presentation 
 
 - title: Morphological and immunohistochemical characterization of sessile serrated adenoma with dysplasia  
