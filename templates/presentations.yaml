@@ -1,8 +1,32 @@
-- title: "Identifying and characterising high resolution mutational signatures from DNA mismatch repair deficient tumours"
-  event: "Australian Bionformatics and Computational Biology Society (ABACBS) National Conference, Melbourne, Australia"
-  authors: [Peter Georgeson, Chris Hovens, Daniel Buchanan, Bernard Pope]
-  date: 27 November 2018 
-  kind: Poster 
+- title: "Germline POLE and POLD1 variation in persons with colorectal cancer from the Colon Cancer Family Registry Cohort"  
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting, Auckland, New Zealand
+  authors: [Khalid Mahmood]
+  date: 22 March 2019 
+  kind: Oral Presentation 
+
+- title: "Colorectal cancer risk in NTHL1 heterozygous mutation carriers"
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting, Auckland, New Zealand
+  authors: [Abi Ragunathan]
+  date: 22 March 2019 
+  kind: Oral Presentation 
+
+- title: "Genetics of Serrated Polyposis Syndrome (SPS)"
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting, Auckland, New Zealand
+  authors: [Dan Buchanan]
+  date: 22 March 2019 
+  kind: Oral Presentation 
+
+- title: "Evaluating tumour mutational signatures for classification of mismatch repair deficiency and identification of Lynch syndrome and MLH1 methylated subtypes"
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting, Auckland, New Zealand
+  authors: [Peter Georgeson]
+  date: 21 March 2019 
+  kind: Oral Presentation 
+
+- title: "Predictors of class: Using protein structure and function information to predict and understand mismatch repair variant pathogenicity" 
+  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting, Auckland, New Zealand
+  authors: [Bernard Pope]
+  date: 21 March 2019 
+  kind: Oral Presentation 
 
 - title: "Identifying and characterising high resolution mutational signatures from DNA mismatch repair deficient tumours"
   event: "COMBINE Student Symposium, ABACBS National Conference, Melbourne, Australia"
