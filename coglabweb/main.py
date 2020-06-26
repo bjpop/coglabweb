@@ -117,7 +117,8 @@ def render_page(options, jinja_env, template, transform, contents_filename=None)
     if contents_filename is not None:
         contents_path = os.path.join(options.templates, contents_filename)
         with open(contents_path) as contents_file:
-            contents = yaml.load(contents_file)
+            #contents = yaml.load(contents_file)
+            contents = yaml.load(contents_file, Loader=yaml.FullLoader)
     else:
         contents = {}
     contents = transform(contents)
@@ -206,7 +207,7 @@ class Template(object):
         if yaml_filename is not None:
             contents_path = os.path.join(template_dir, yaml_filename)
             with open(contents_path) as contents_file:
-                yaml_contents = yaml.load(contents_file)
+                yaml_contents = yaml.load(contents_file, Loader=yaml.FullLoader) 
         self.contents[name] = transform(yaml_contents)
         return self
 
