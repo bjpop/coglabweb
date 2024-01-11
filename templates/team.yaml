@@ -37,6 +37,26 @@
        <p><a href="https://www.researchgate.net/profile/Mark_Clendenning">Research Gate entry.</a></p><p>Mark is a serial expatriate from the UK, with a B.Sc. in Genetics from the University of Sheffield. He obtained his Ph.D. through the University of Bristol, whilst studying the genomic architecture of the chicken Natural Killer Complex and its relation to Marek’s disease resistance.</p><p>Upon the completion of his Ph.D. he took up a postdoctoral position at the Ohio State University under the mentorship of the world-renowned human geneticist Albert de la Chapelle. Here, Mark utilised the molecular techniques and knowledge acquired from working with the chicken genome to advance our understanding of the mutational spectrum involved in Lynch syndrome, a genetic disease which predisposes affected individuals to a spectrum of cancers, primarily colorectal (bowel) and endometrial (uterus).</p><p>In 2008, Mark joined the familial cancer laboratory at QIMR in Brisbane where he was able to apply his molecular knowledge to the Australian colon cancer family cohort. Currently, Mark continues to work on Lynch syndrome as well as other subtypes of familial colorectal cancer, within the Oncogenomics Group at the University of Melbourne.</p><p>In particular, Mark’s work has focused on the PMS2 gene and through the development of a novel mutation screening method he has achieved worldwide recognition as an authority on the validity and interpretation of mutations within this gene.</p>
 
 -
+    name: Sue Preston
+    photo: assets/img/sue_preston_bw.jpg
+    role: Biorepository Manager
+    level: Biorepository Manager/Research Assistant
+    affiliation: Department of Clinical Pathology and The University of Melbourne Centre for Cancer Research (UMCCR)
+    email: susan.preston@unimelb.edu.au
+    career: |
+        <p>Sue has a Bachelor of Applied Science (Chemistry) from Monash University.</p>
+        <p>Since November 2014, Sue has been the Biorepository Manager of the Colorectal Oncogenomics Group, Department of Clinical Pathology, Faculty of Medicine, Dentistry and Health Sciences, The University of Melbourne, Victorian Comprehensive Cancer Centre.</p>
+        <p>This collection is the largest biorepository of colorectal cancer and pre-malignant colonic lesions within Australia. The collection includes:</p>
+        <ul><li>ACCFR - Australasian Colorectal Cancer Family Registry, Colon Cancer Family Registry Cohort, which is part of the largest family study of colorectal cancer in the world;</li>
+        <li>ANGELS – Applying Novel Genomic approaches to Early-onset and suspected Lynch Syndrome colorectal and endometrial cancers;</li>
+        <li>GCPS – Genetics of Colonic Polyposis Study;</li>
+        <li>Genetics of Sebaceous Skin Lesion Study;</li>
+        <li>Detecting heritable mutations in post cholecystectomy pain and recurrent pancreatitis - under diagnosis of LPAC disease; and</li>
+        <li>MCCS – Melbourne Collaborative Cohort Study focusing on colorectal and endometrial cancer biospecimens.</li></ul>
+        <p>Sue is responsible for both receiving and dispatching samples from the biorepository, including processing and dispatching samples to national and international collaborators. Sue covers laboratory biorepository and molecular work, occupational health and safety compliance, laboratory administration, ordering and financial processing in the group and, importantly, training new staff members and students in safe and accurate laboratory procedures.</p>
+        <p>Prior to joining Associate Professor Buchanan’s Lab, she worked for other labs in the University of Melbourne, also 11 years at the Dorevitch Pathology Central Laboratory in Immunoserology, and 11 years working for CSIRO Division of Forestry and Forest Products.</p>
+
+-
     name: Sharelle Joseland   
     photo: assets/img/sharelle_joseland.png
     role: Study Co-ordinator – ANGELS Study  
@@ -96,24 +116,22 @@
         <p>Dr. Khalid Mahmood is a bioinformatician in the lab, being trained in computational biology from Monash University. The focus of his PhD was the development of computational algorithms for comparative genomics with emphasis on identifying orthologous genes, homologous genomic segments and other complex evolutionary events when comparing genomes. Khalid is also experienced in studying relationships between protein sequences and structures.</p><p>Khalid’s recent work in the lab focuses on bringing together computational methods and genomics to understand genetics of colorectal cancer. Khalid is very interested in developing methods to investigate the relationship between genetic mutations and their impact on protein function and relationship with disease.</p>
 
 -
-    name: Mr Peter Georgeson 
+    name: Dr Peter Georgeson 
     photo: assets/img/peter_georgeson_bw.jpg
-    role: Bioinformatician 
-    level: PhD candidate 
+    role: Postdoctoral Researcher 
+    level: Postdoctoral Researcher
     affiliation: Department of Clinical Pathology
-    phone: 
     email: peter.georgeson@unimelb.edu.au 
     publications: <a href="https://scholar.google.com.au/citations?user=uOi-Ge4AAAAJ&hl=en">Google scholar</a>
     career: |
         <p>BEng (Hons I)/BMath MSc(CompSci)</p><p>Peter is a bioinformatician with a background in software engineering.</p><p>Peter started his career in industry as a software engineer, working on, among other things, establishing the UK's first independent online payment provider. Recently switching to bioinformatics, Peter completed his Master of Science (Computer Science) at the University of Melbourne in 2016. He was the recipient of numerous awards, including a place on the Dean's Merit List, the Johnny Smoes award for excellence in software development, and the Australian Artificial Intelligence Institute Prize.</p><p>More recently, while employed at Melbourne Bioinformatics, Peter specialised in the design, development and implementation of analysis pipelines and the application of novel analysis methods to large genomics datasets. Peter is particularly interested in the application of computational and statistical methods such as machine learning to genomics problems.</p><p>In 2018, Peter commenced a PhD with Associate Professor Dan Buchanan and Dr Bernard Pope, with a view to improving our understanding of the aetiology of colorectal cancer, to improve diagnosis, prevention, and treatment of the disease.</p>
 
 -
-    name: Ms Romy Walker
+    name: Dr Romy Walker
     photo: assets/img/romy_walker.jpg
     role: Molecular Geneticist 
-    level: PhD candidate 
+    level: Postdoctoral Researcher
     affiliation: Department of Clinical Pathology
-    phone: 
     email: romy@student.unimelb.edu.au 
     career: |
         <p>Romy is a Human Geneticist having undergone her B. Sc. and M. Sc. Degree at the University Hospital Regensburg in Germany. Upon completion, she obtained a position in a routine Diagnostics Department, focusing on hereditary tumour and rare eye diseases.</p><p>During her 4-year stay at the Institute of Human Genetics, she commenced an advanced training program offered by The German Society of Human Genetics, which she is a member of. This 5-year educational program allows scientists certified as “clinical genetic laboratory specialist” to work as professionals in clinical genetics and patients care.</p><p>Beginning 2018, Romy has finalised her major in molecular genetics (3 years) and has started a PhD with Associate Professor Daniel Buchanan. The research focus will be set on establishing novel diagnostic approaches for risk stratification of individuals with mismatch repair-deficient cancer.</p>
